@@ -1,0 +1,37 @@
+@font-face{
+    src: url(Fonts/Cherolina.ttf);
+    font-family: cherolina;
+}
+
+@font-face{
+    src: url(Fonts/Poppins-Medium.otf);
+    font-family: poppinsMedium;
+}
+
+@font-face{
+    src: url(Fonts/Poppins-Regular.otf);
+    font-family: poppinsRegular;
+}
+
+:root{
+    font-size: 14px;
+    --primary-color: #4F557C;
+    --secondary-color: #8080A0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    max-width: 1366px !important;
+    margin: 0 auto !important;
+    overflow-x: hidden;
+    font-family: poppinsRegular !important;
+    background-color: white !important;
+}
+
+p{
+    color: var(--primary-color);
+}
