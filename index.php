@@ -20,17 +20,58 @@
 
     <body>
 
-        <?php 
-        include 'php/navbar.html';
-        ?>
+        <!--<?php
+        //include 'php/navbar.html';
+        //include 'php/form.html';
+        //include 'php/maps.html';
+        //include 'php/footer.html';
+        ?>-->
 
+        <section class="nossas-solucoes">
+            <div class="titulo">
+                <img src="Images/Index/imagem1.png">
+                <h1>Nossas soluções</h1>
+            </div>
+            <div class="conteudo">
+                <div class="imagens">
+                    <div>
+                    <img src="Images/Index/imagem1.png"></div>
+                    <div>
+                    <img src="Images/Index/imagem1.png"></div>
+                    <div>
+                    <img src="Images/Index/imagem1.png"></div>
+                    <div>
+                    <img src="Images/Index/imagem1.png"></div>
+                    
+                </div>
+                <div class="texto">
+                    <p>
+                        Nossos principais produtos são ladrilhos padronizados ou sob medida, fornecemos também peças para revestimento de fachadas, assim como peitoris, soleiras, bancadas e chapas.
+                    </p>
+                </div>
+            </div>
+            
+        </section>
         
-        <?php
-        include 'php/form.html';
-        include 'php/maps.html';
-        include 'php/footer.html';
-        ?>
-
+        <section class="cores">
+            <div class="titulo">
+                <img src="Images/Index/imagem1.png">
+                <h1>Cores</h1>
+            </div>
+            <div class="info">
+                <div class="painel">
+                        <img src="Images/Index/painel.png">
+                        <img src="Images/Index/base.png">
+                </div>
+                <div class="opcoes-cores">
+                    
+                </div>
+            </div>
+            
+            
+        </section>
+        
+        
     </body>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </html>
