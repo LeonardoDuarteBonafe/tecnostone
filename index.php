@@ -21,13 +21,13 @@
     <body>
 
         <!--<?php
-        //include 'php/navbar.html';
-        //include 'php/form.html';
-        //include 'php/maps.html';
-        //include 'php/footer.html';
-        ?>-->
+//include 'php/navbar.html';
+//include 'php/form.html';
+//include 'php/maps.html';
+//include 'php/footer.html';
+?>-->
 
-        <section class="nossas-solucoes">
+        <section class="nossas-solucoes galeria">
             <div class="titulo">
                 <img src="Images/Index/imagem1.png">
                 <h1>Nossas soluções</h1>
@@ -35,14 +35,13 @@
             <div class="conteudo">
                 <div class="imagens">
                     <div>
-                    <img src="Images/Index/imagem1.png"></div>
+                        <img src="Images/Index/imagem1.png"></div>
                     <div>
-                    <img src="Images/Index/imagem1.png"></div>
+                        <img src="Images/Index/imagem1.png"></div>
                     <div>
-                    <img src="Images/Index/imagem1.png"></div>
+                        <img src="Images/Index/imagem1.png"></div>
                     <div>
-                    <img src="Images/Index/imagem1.png"></div>
-                    
+                        <img src="Images/Index/imagem1.png"></div> 
                 </div>
                 <div class="texto">
                     <p>
@@ -50,9 +49,8 @@
                     </p>
                 </div>
             </div>
-            
         </section>
-        
+
         <section class="cores">
             <div class="titulo">
                 <img src="Images/Index/imagem1.png">
@@ -60,8 +58,8 @@
             </div>
             <div class="info">
                 <div class="painel">
-                        <img src="Images/Index/painel.png">
-                        <img src="Images/Index/base.png">
+                    <img src="Images/Index/painel.png">
+                    <img src="Images/Index/base.png">
                 </div>
                 <div class="opcoes-cores">
                     <div>
@@ -105,11 +103,56 @@
                     </div>
                 </div>
             </div>
-            
-            
         </section>
-        
-        
+
+        <section class="acabamentos galeria">
+            <div class="titulo">
+                <img src="Images/Index/imagem1.png">
+                <h1>Acabamentos</h1>
+            </div>
+            <div class="conteudo">
+                <div class="imagens">
+                    <div>
+                        <div>
+                            <img src="Images/Index/imagem1.png">
+                        </div>
+                        <p>escovado</p>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="Images/Index/imagem1.png">
+                        </div>
+                        <p>flameado</p>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="Images/Index/imagem1.png">
+                        </div>
+                        <p>jateado</p>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="Images/Index/imagem1.png">
+                        </div>
+                        <p>polido</p>
+                    </div>
+                    <!--<div>
+                        <img src="Images/Index/imagem1.png">
+                        <p>flameado</p>
+                    </div>
+                    <div>
+                        <img src="Images/Index/imagem1.png">
+                        <p>jateado</p>
+                    </div>
+                    <div>
+                        <img src="Images/Index/imagem1.png">
+                        <p>polido</p>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+
     </body>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </html>
