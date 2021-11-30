@@ -64,7 +64,45 @@
                         <img src="Images/Index/base.png">
                 </div>
                 <div class="opcoes-cores">
-                    
+                    <div>
+                        <img src="Images/Index/painel.png">
+                    </div>
+                    <div>
+                        <img src="Images/Index/painel.png">
+                    </div>
+                    <div>
+                        <img src="Images/Index/painel.png">
+                    </div>
+                    <div>
+                        <img src="Images/Index/painel.png">
+                    </div>
+                    <div>
+                        <img src="Images/Index/painel.png">
+                    </div>
+                    <div>
+                        <img src="Images/Index/painel.png">
+                    </div>
+                    <div>
+                        <img src="Images/Index/painel.png">
+                    </div>
+                    <div>
+                        <img src="Images/Index/painel.png">
+                    </div>
+                    <div>
+                        <img src="Images/Index/painel.png">
+                    </div>
+                    <div>
+                        <img src="Images/Index/painel.png">
+                    </div>
+                    <div>
+                        <img src="Images/Index/painel.png">
+                    </div>
+                    <div>
+                        <img src="Images/Index/painel.png">
+                    </div>
+                    <div>
+                        <img src="Images/Index/painel.png">
+                    </div>
                 </div>
             </div>
             

@@ -106,3 +106,27 @@ p{
 .cores .info .painel img{
     width: 100%;
 }
+
+.cores .info .opcoes-cores{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;//
+    background-color: red;
+}
+
+.cores .info .opcoes-cores div{
+    display: flex;
+    width: 100px;
+    height: 80px;
+    margin: 10px 20px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cores .info .opcoes-cores div img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
