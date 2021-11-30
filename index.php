@@ -151,6 +151,25 @@
                 </div>
             </div>
         </section>
+        
+        <section class="obras-realizadas galeria">
+            <div class="titulo">
+                <img src="Images/Index/imagem1.png">
+                <h1>Obras realizadas</h1>
+            </div>
+            <div class="conteudo">
+                <div class="imagens">
+                    <div>
+                        <img src="Images/Index/imagem1.png"></div>
+                    <div>
+                        <img src="Images/Index/imagem1.png"></div>
+                    <div>
+                        <img src="Images/Index/imagem1.png"></div>
+                    <div>
+                        <img src="Images/Index/imagem1.png"></div> 
+                </div>
+            </div>
+        </section>
 
 
     </body>
