@@ -158,3 +158,56 @@ p{
     align-items: center;
     font-size: 1.6em;
 }
+
+.informacao{
+    width: 80%;
+    margin: 15px auto;
+    background-color: pink;
+    padding: 20px 40px;
+}
+
+.informacao h1{
+    text-align: center;
+    color: white;
+}
+
+.informacao p{
+    color: white;
+}
+
+.informacao.visao{
+    background-color: #163960;
+}
+
+.informacao.missao{
+    background-color: #2DA537;
+}
+
+.informacao.valores{
+    background-color: #B7B7B7;
+}
+
+.contato{
+    background-color: beige;
+    width: 80%;
+    margin: 0 auto !important;
+}
+
+.contato .form input,
+.contato .form textarea{
+    width: 100%;
+}
+
+footer{
+    margin: 0;
+    padding: 0;
+    background-color: #163960;
+    height: 250px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img{
+    width: 250px;
+}

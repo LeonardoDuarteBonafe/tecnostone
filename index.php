@@ -137,21 +137,21 @@
                         <p>polido</p>
                     </div>
                     <!--<div>
-                        <img src="Images/Index/imagem1.png">
-                        <p>flameado</p>
-                    </div>
-                    <div>
-                        <img src="Images/Index/imagem1.png">
-                        <p>jateado</p>
-                    </div>
-                    <div>
-                        <img src="Images/Index/imagem1.png">
-                        <p>polido</p>
-                    </div> -->
+<img src="Images/Index/imagem1.png">
+<p>flameado</p>
+</div>
+<div>
+<img src="Images/Index/imagem1.png">
+<p>jateado</p>
+</div>
+<div>
+<img src="Images/Index/imagem1.png">
+<p>polido</p>
+</div> -->
                 </div>
             </div>
         </section>
-        
+
         <section class="obras-realizadas galeria">
             <div class="titulo">
                 <img src="Images/Index/imagem1.png">
@@ -170,8 +170,98 @@
                 </div>
             </div>
         </section>
+        <section class="informacao visao">
+            <h1>visão</h1>
+            <p>
+                Ser referência no fornecimento de Rochas Ornamentais para construção civil no território nacional.
+            </p>
+        </section>
 
+        <section class="informacao missao">
+            <h1>missão</h1>
+            <p>
+                Entregar os melhores produtos, para qualquer destino, dentro do menor prazo possível. 
+                Entendemos que cada projeto é único e exige atenção específica, portanto; nos importa atender com excelência as especificações de cada projeto, apresentando soluções adequadas as demandas requeridas pelo cliente. 
 
+            </p>
+        </section>
+
+        <section class="informacao valores">
+            <h1>valores e diferenciais</h1>
+            <p>
+                Honestidade, compromisso e determinação.
+                Temos o cuidado de oferecer apenas produtos de qualidade e em conformidade com as especificações de projeto.
+                Para evitarmos incongruências, trabalhamos em sintonia com os responsáveis pela execução dos projetos. Um diferencial que se traduz em economia de tempo e dinheiro.
+                Além da comunicação, um grande diferencial é que, acompanhamos todo processo de fabricação, prevenindo assim, inconformidades, de modo atender o compromisso firmado com o cliente.
+                Peça seu orçamento. Após uma análise técnica e aprofundada, ofereceremos a melhor proposta!
+
+            </p>
+        </section>
+
+        <section class="contato row d-flex justify-content-center" id="contato">
+            <div class="col-12 col-md-8">
+                <h1>FORMULÁRIO DE CONTATO</h1>
+                <div class="form row d-flex">
+                    <div class="info col-12 col-md-6">
+                        <input class= "form-text form-nome" type="text" name="nome" id="nome" placeholder="Nome">
+                        <input class= "form-text form-email" type="text" name="email" id="email" placeholder="Email">
+                        <input class= "form-text" type="text" name="telefone" id="telefone" placeholder="Telefone">
+                        <input class= "form-text" type="text" name="setor" id="setor" placeholder="Setor">
+                    </div>
+                    <div class="mensagem col-12 col-md-6">
+                        <textarea class= "form-text" type="text" name="mensagem" id="mensagem" placeholder="Mensagem" rows="5"></textarea>
+                    </div>
+                    <div class="col-12 btn-form">
+                        <button class="buttonEmail" type="button">ENVIAR</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <h1>CONTATO</h1>
+                <div>
+                    <p>
+                       Lorem ipsum dolor sit amet,  consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+                    </p>
+                </div>
+            </div>
+            <!--
+            <section class="contato row d-flex justify-content-center" id="contato">    
+            <div class="col-9">
+                <h2 class="title">
+                    CONTATO
+                </h2>
+                <div class="form row">
+                    <div class="col-12 col-sm-6">
+                        <input class= "form-text form-nome" type="text" name="nome" id="nome" placeholder="NOME">
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <input class= "form-text form-email" type="text" name="email" id="email" placeholder="EMAIL">
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <input class= "form-text" type="text" name="telefone" id="telefone" placeholder="TELEFONE">
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <input class= "form-text" type="text" name="empresa" id="empresa" placeholder="EMPRESA">
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <input class= "form-text" type="text" name="cidade" id="cidade" placeholder="CIDADE">
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <input class= "form-text" type="text" name="estado" id="estado" placeholder="ESTADO">
+                    </div>
+                    <div class="col-12">
+                        <textarea class= "form-text" type="text" name="mensagem" id="mensagem" placeholder="MENSAGEM" rows="5"></textarea>
+                    </div>
+                    <div class="col-12 btn-form">
+                        <button class="buttonEmail" type="button">ENVIAR</button>
+                    </div>
+                </div>
+            </div>-->
+        </section>
+        
+        <footer>
+            <img src="Images/Index/logo-footer.png">
+        </footer>
     </body>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </html>
