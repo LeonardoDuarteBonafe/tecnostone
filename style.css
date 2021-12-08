@@ -1,11 +1,11 @@
 @font-face{
-    src: url(Fonts/Cherolina.ttf);
-    font-family: cherolina;
+    src: url(Fonts/Montserrat-Regular.ttf);
+    font-family: montRegular;
 }
 
 @font-face{
-    src: url(Fonts/Poppins-Medium.otf);
-    font-family: poppinsMedium;
+    src: url(Fonts/Montserrat-SemiBold.ttf);
+    font-family: montSemiBold;
 }
 
 @font-face{
@@ -15,7 +15,7 @@
 
 :root{
     font-size: 14px;
-    --primary-color: #4F557C;
+    --primary-color: #163960;
     --secondary-color: #8080A0;
 }
 
@@ -34,6 +34,7 @@ body{
 
 p{
     color: var(--primary-color);
+    font-family: montRegular;
 }
 
 .titulo{
@@ -78,7 +79,7 @@ p{
 
 .galeria .conteudo .imagens div:nth-child(even){
     transform: translateY(-15px);
-    
+
 }
 
 .galeria .conteudo .imagens div img{
@@ -96,7 +97,7 @@ p{
 
 .nossas-solucoes .conteudo .texto{
     text-align: center;
-    
+
 }
 
 .cores .info .painel{
@@ -188,20 +189,85 @@ p{
 }
 
 .contato{
-    background-color: beige;
-    width: 80%;
+    /background-color: beige;
     margin: 0 auto !important;
+    padding: 40px 10%;
+}
+
+.contato .form{
+    /background-color: red;
 }
 
 .contato .form input,
 .contato .form textarea{
     width: 100%;
+    border-color: black;
+    padding-left: 5px;
+    border-radius: 0;
+    border-width: 1.7px;
+    margin: 5px 0 0 0;
+    font-family: montRegular;
+    font-size: 0.8rem;
+}
+
+.contato .form input{
+    height: 30px;
+}
+
+.contato .form input:last-child,
+.contato .form textarea{
+    margin-bottom: 15px;
+}
+
+.contato .form textarea{
+    height: 135px;
+}
+
+.contato .form input::placeholder,
+.contato .form textarea::placeholder{
+    color: black;
+}
+
+.contato h1{
+    font-family: montSemiBold;
+    color: var(--primary-color);
+}
+
+.contato .form .buttonEmail{
+    width: 150px;
+    font-family: montRegular;
+    font-size: 0.8em;
+    height: 25px;
+    background-color: var(--primary-color);
+    color: white;
+    float: right;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.contato .form .buttonEmail:hover{
+    background-color: white;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.contato .info section{
+    display: flex;
+}
+
+.contato .info section img{
+    width: 20px;
+    height: 20px;
+}
+
+.contato .info section p{
+    margin: 2px 5px;
 }
 
 footer{
     margin: 0;
     padding: 0;
-    background-color: #163960;
+    background-color: var(--primary-color);
     height: 250px;
     display: flex !important;
     justify-content: center;
@@ -210,4 +276,55 @@ footer{
 
 footer img{
     width: 250px;
+}
+
+@media only screen and (max-width: 767px)
+{
+    .contato{
+        padding: 20px 10%;
+    }
+
+    .contato h1{
+        font-size: 2rem;
+    }
+    
+    .contato .form{
+        margin-bottom: 20px;
+        display: flex;
+    }
+
+    .contato .form input:last-child,
+    .contato .form textarea{
+        margin-bottom: 0px;
+    }
+
+    .contato .form textarea{
+        height: 100px;
+        margin-bottom: 5px;
+    }
+
+    .contato .form .buttonEmail:hover{
+        background-color: white;
+        color: var(--primary-color);
+        border-color: var(--primary-color);
+    }
+
+    .contato .info section{
+        display: flex;
+    }
+
+    .contato .info section img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .contato .info section p{
+        margin: 2px 5px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+
 }

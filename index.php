@@ -212,7 +212,7 @@
                         <textarea class= "form-text" type="text" name="mensagem" id="mensagem" placeholder="Mensagem" rows="5"></textarea>
                     </div>
                     <div class="col-12 btn-form">
-                        <button class="buttonEmail" type="button">ENVIAR</button>
+                        <button class="buttonEmail" type="button">Enviar</button>
                     </div>
                 </div>
             </div>
@@ -220,45 +220,59 @@
                 <h1>CONTATO</h1>
                 <div>
                     <p>
-                       Lorem ipsum dolor sit amet,  consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+                        Lorem ipsum dolor sit amet,  consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
                     </p>
+                </div>
+                <div class="info">
+                    <section>
+                        <img src="Images/Index/painel.png">
+                        <p>
+                            thiago@tecnostone.com.br 
+                        </p>
+                    </section>
+                    <section>
+                        <img src="Images/Index/painel.png">
+                        <p>
+                            +55 28 99885-5718
+                        </p>
+                    </section>
                 </div>
             </div>
             <!--
-            <section class="contato row d-flex justify-content-center" id="contato">    
-            <div class="col-9">
-                <h2 class="title">
-                    CONTATO
-                </h2>
-                <div class="form row">
-                    <div class="col-12 col-sm-6">
-                        <input class= "form-text form-nome" type="text" name="nome" id="nome" placeholder="NOME">
-                    </div>
-                    <div class="col-12 col-sm-6">
-                        <input class= "form-text form-email" type="text" name="email" id="email" placeholder="EMAIL">
-                    </div>
-                    <div class="col-12 col-sm-6">
-                        <input class= "form-text" type="text" name="telefone" id="telefone" placeholder="TELEFONE">
-                    </div>
-                    <div class="col-12 col-sm-6">
-                        <input class= "form-text" type="text" name="empresa" id="empresa" placeholder="EMPRESA">
-                    </div>
-                    <div class="col-12 col-sm-6">
-                        <input class= "form-text" type="text" name="cidade" id="cidade" placeholder="CIDADE">
-                    </div>
-                    <div class="col-12 col-sm-6">
-                        <input class= "form-text" type="text" name="estado" id="estado" placeholder="ESTADO">
-                    </div>
-                    <div class="col-12">
-                        <textarea class= "form-text" type="text" name="mensagem" id="mensagem" placeholder="MENSAGEM" rows="5"></textarea>
-                    </div>
-                    <div class="col-12 btn-form">
-                        <button class="buttonEmail" type="button">ENVIAR</button>
-                    </div>
-                </div>
-            </div>-->
+<section class="contato row d-flex justify-content-center" id="contato">    
+<div class="col-9">
+<h2 class="title">
+CONTATO
+</h2>
+<div class="form row">
+<div class="col-12 col-sm-6">
+<input class= "form-text form-nome" type="text" name="nome" id="nome" placeholder="NOME">
+</div>
+<div class="col-12 col-sm-6">
+<input class= "form-text form-email" type="text" name="email" id="email" placeholder="EMAIL">
+</div>
+<div class="col-12 col-sm-6">
+<input class= "form-text" type="text" name="telefone" id="telefone" placeholder="TELEFONE">
+</div>
+<div class="col-12 col-sm-6">
+<input class= "form-text" type="text" name="empresa" id="empresa" placeholder="EMPRESA">
+</div>
+<div class="col-12 col-sm-6">
+<input class= "form-text" type="text" name="cidade" id="cidade" placeholder="CIDADE">
+</div>
+<div class="col-12 col-sm-6">
+<input class= "form-text" type="text" name="estado" id="estado" placeholder="ESTADO">
+</div>
+<div class="col-12">
+<textarea class= "form-text" type="text" name="mensagem" id="mensagem" placeholder="MENSAGEM" rows="5"></textarea>
+</div>
+<div class="col-12 btn-form">
+<button class="buttonEmail" type="button">ENVIAR</button>
+</div>
+</div>
+</div>-->
         </section>
-        
+
         <footer>
             <img src="Images/Index/logo-footer.png">
         </footer>
