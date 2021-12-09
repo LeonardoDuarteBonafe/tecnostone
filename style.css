@@ -107,6 +107,14 @@ p{
 
 .nossas-solucoes .conteudo .texto{
     text-align: center;
+    width: 92%;
+    margin: 0 auto;
+}
+
+.nossas-solucoes .conteudo .texto p{
+    font-family: montLight;
+    font-size: 1.5rem;
+    color: #828383;
 }
 
 .cores .info .painel{
