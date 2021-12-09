@@ -132,8 +132,8 @@ p{
 .cores .info .opcoes-cores div{
     display: flex;
     width: 100px;
-    height: 80px;
-    margin: 10px 20px;
+    height: 75px;
+    margin: 7px;
     object-fit: cover;
     object-position: center;
 }
@@ -167,6 +167,8 @@ p{
     justify-content: center;
     align-items: center;
     font-size: 1.6em;
+    color: #828383;
+    font-family: montRegular;
 }
 
 .informacao{
@@ -296,6 +298,16 @@ footer img{
 
 @media only screen and (max-width: 767px)
 {
+    .cores .info .painel{
+        width: 80%;
+    }
+
+    .cores .info .opcoes-cores div{
+        width: 80px;
+        height: 50px;
+        margin: 5px;
+    }
+
     .galeria .conteudo{
         max-width: 350px;
     }
@@ -315,33 +327,33 @@ footer img{
     .galeria .conteudo .imagens div img:hover{
         transform: scale(1.2);
     }
-    
+
     /*.galeria .conteudo{
-        width: 80%;
-    }
+    width: 80%;
+}
 
     .galeria .conteudo .imagens{
-        flex-wrap: wrap;
-    }
+    flex-wrap: wrap;
+}
 
     .galeria .conteudo .imagens div{
-        width: 100% !important;
-        display: flex !important;
-        justify-content: center !important;
-    }
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+}
 
     .galeria .conteudo .imagens div:nth-child(even){
-        transform: translateY(0px);
-    }
+    transform: translateY(0px);
+}
 
     .galeria .conteudo .imagens div img{
-        max-width: 200px;
-        transform: scale(0.9)
-    }
+    max-width: 200px;
+    transform: scale(0.9)
+}
 
     .galeria .conteudo .imagens div img:hover{
-        transform: scale(1);
-    }*/
+    transform: scale(1);
+}*/
 
     .informacao{
         width: 80%;
@@ -404,7 +416,16 @@ footer img{
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px)
-{
+{    
+    .cores .info .painel{
+        width: 75%;
+    }
+
+    .cores .info .opcoes-cores div{
+        height: 70px;
+        margin: 5px;
+    }
+
     .galeria .conteudo{
         margin: 15px auto;
         width: 70%;
