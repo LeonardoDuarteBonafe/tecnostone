@@ -29,19 +29,23 @@
 
         <section class="nossas-solucoes galeria">
             <div class="titulo">
-                <img src="Images/Index/imagem1.png">
+                <img src="Images/Index/logo-titulo.png">
                 <h1>Nossas soluções</h1>
             </div>
             <div class="conteudo">
                 <div class="imagens">
                     <div>
-                        <img src="Images/Index/imagem1.png"></div>
+                        <img src="Images/Index/Nossas-Solucoes/imagem1.png">
+                    </div>
                     <div>
-                        <img src="Images/Index/imagem1.png"></div>
+                        <img src="Images/Index/Nossas-Solucoes/imagem2.png">
+                    </div>
                     <div>
-                        <img src="Images/Index/imagem1.png"></div>
+                        <img src="Images/Index/Nossas-Solucoes/imagem3.png">
+                    </div>
                     <div>
-                        <img src="Images/Index/imagem1.png"></div> 
+                        <img src="Images/Index/Nossas-Solucoes/imagem4.png">
+                    </div>
                 </div>
                 <div class="texto">
                     <p>
@@ -53,7 +57,7 @@
 
         <section class="cores">
             <div class="titulo">
-                <img src="Images/Index/imagem1.png">
+                <img src="Images/Index/logo-titulo.png">
                 <h1>Cores</h1>
             </div>
             <div class="info">
@@ -107,32 +111,32 @@
 
         <section class="acabamentos galeria">
             <div class="titulo">
-                <img src="Images/Index/imagem1.png">
+                <img src="Images/Index/logo-titulo.png">
                 <h1>Acabamentos</h1>
             </div>
             <div class="conteudo">
                 <div class="imagens">
                     <div>
                         <div>
-                            <img src="Images/Index/imagem1.png">
+                            <img src="Images/Index/Acabamentos/imagem1.png">
                         </div>
                         <p>escovado</p>
                     </div>
                     <div>
                         <div>
-                            <img src="Images/Index/imagem1.png">
+                            <img src="Images/Index/Acabamentos/imagem2.png">
                         </div>
                         <p>flameado</p>
                     </div>
                     <div>
                         <div>
-                            <img src="Images/Index/imagem1.png">
+                            <img src="Images/Index/Acabamentos/imagem3.png">
                         </div>
                         <p>jateado</p>
                     </div>
                     <div>
                         <div>
-                            <img src="Images/Index/imagem1.png">
+                            <img src="Images/Index/Acabamentos/imagem4.png">
                         </div>
                         <p>polido</p>
                     </div>
@@ -154,19 +158,19 @@
 
         <section class="obras-realizadas galeria">
             <div class="titulo">
-                <img src="Images/Index/imagem1.png">
+                <img src="Images/Index/logo-titulo.png">
                 <h1>Obras realizadas</h1>
             </div>
             <div class="conteudo">
                 <div class="imagens">
                     <div>
-                        <img src="Images/Index/imagem1.png"></div>
+                        <img src="Images/Index/Obras-Realizadas/imagem1.png"></div>
                     <div>
-                        <img src="Images/Index/imagem1.png"></div>
+                        <img src="Images/Index/Obras-Realizadas/imagem2.png"></div>
                     <div>
-                        <img src="Images/Index/imagem1.png"></div>
+                        <img src="Images/Index/Obras-Realizadas/imagem3.png"></div>
                     <div>
-                        <img src="Images/Index/imagem1.png"></div> 
+                        <img src="Images/Index/Obras-Realizadas/imagem4.png"></div> 
                 </div>
             </div>
         </section>
@@ -182,7 +186,6 @@
             <p>
                 Entregar os melhores produtos, para qualquer destino, dentro do menor prazo possível. 
                 Entendemos que cada projeto é único e exige atenção específica, portanto; nos importa atender com excelência as especificações de cada projeto, apresentando soluções adequadas as demandas requeridas pelo cliente. 
-
             </p>
         </section>
 
@@ -194,7 +197,6 @@
                 Para evitarmos incongruências, trabalhamos em sintonia com os responsáveis pela execução dos projetos. Um diferencial que se traduz em economia de tempo e dinheiro.
                 Além da comunicação, um grande diferencial é que, acompanhamos todo processo de fabricação, prevenindo assim, inconformidades, de modo atender o compromisso firmado com o cliente.
                 Peça seu orçamento. Após uma análise técnica e aprofundada, ofereceremos a melhor proposta!
-
             </p>
         </section>
 
