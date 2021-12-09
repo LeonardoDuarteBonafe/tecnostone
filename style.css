@@ -152,6 +152,11 @@ p{
     overflow: hidden;
 }
 
+.acabamentos{
+    background-color: #EDEDEF;
+    padding: 30px 0 20px 0;
+}
+
 .acabamentos .conteudo .imagens div{  
     z-index: 1;
     background-color: green !important;
@@ -214,9 +219,9 @@ p{
 }
 
 .contato{
-    /background-color: beige;
+    background-color: #EDEDEF;
     margin: 0 auto !important;
-    padding: 40px 10%;
+    padding: 50px 10% 40px 10%;
 }
 
 .contato .form{
