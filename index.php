@@ -27,6 +27,15 @@
 //include 'php/footer.html';
 ?>-->
 
+        <section class="social-media">
+            <div>
+                <img src="Images/Index/Social-Media/logo-instagram.png">
+                <img src="Images/Index/Social-Media/logo-facebook.png">
+                <img src="Images/Index/Social-Media/logo-whatsapp.png">
+            </div>
+            
+        </section>
+        
         <section class="nossas-solucoes galeria">
             <div class="titulo">
                 <img src="Images/Index/logo-titulo.png">

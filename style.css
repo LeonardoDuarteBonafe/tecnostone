@@ -43,6 +43,22 @@ p{
     font-family: montRegular;
 }
 
+.social-media{
+    background-color: var(--primary-color);
+    width: 50px;
+    padding: 50px 0;
+    clip-path: polygon(0 0, 0% 0, 100% 15%, 100% 85%, 0% 100%, 0% 100%);
+    position: fixed;
+    margin-top: 10%;
+}
+
+.social-media img{
+    width: 30px;
+    height: 30px;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+
 .titulo{
     margin: 20px 0;
     /background-color: red;
