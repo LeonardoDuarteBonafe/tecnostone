@@ -115,6 +115,78 @@ header nav .mobile-menu div{
     transition: 0.3s;
 }
 
+.sobre-nos{
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+}
+
+.sobre-nos .box.conteudo{
+    width: 40%;
+    background-color: aquamarine;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.sobre-nos .box.conteudo h2{
+    width: 100%;
+    background-color: blueviolet;
+    margin: 0;
+}
+
+.sobre-nos .box.conteudo h1{
+    width: 100%;
+    background-color: burlywood;
+    margin: 0;
+}
+
+.sobre-nos .box.conteudo p{
+    width: 100%;
+    background-color: palevioletred;
+    margin: 0;
+}
+
+.sobre-nos .box.imagens{
+    width: 60%;
+    background-color: blanchedalmond;
+    position: relative;
+}
+
+.sobre-nos .box.imagens .bloco-verde{
+    position: absolute;
+    right: 50px;;
+    background-color: green;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(20% 25%, 100% 10%, 100% 90%, 20% 75%);
+}
+
+.sobre-nos .box.imagens .bloco-azul{
+    position: absolute;
+    right: 70px;;
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(20% 20%, 100% 5%, 100% 95%, 20% 80%);
+}
+
+.sobre-nos .box.imagens .bloco-imagem{
+    position: absolute;
+    right: 90px;;
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(20% 15%, 100% 0%, 100% 100%, 20% 85%);
+}
+
+.sobre-nos .box.imagens .bloco-imagem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
 .social-media{
     background-color: var(--primary-color);
     width: 50px;

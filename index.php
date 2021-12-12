@@ -45,7 +45,7 @@
         </header>
         
         <section class="sobre-nos">
-            <div>
+            <div class="box conteudo">
                 <h2>Sobre</h2>
                 <h1>Nós</h1>
                 <p>Atuamos com fornecimento de produtos em Mármores e Granitos com envio facilitado para todo Brasil.</p>
@@ -54,7 +54,12 @@
                     </div>
                 </div>
             </div>
-            <div>
+            <div class="box imagens">
+                <div class="bloco-verde"></div>
+                <div class="bloco-azul"></div>
+                <div class="bloco-imagem">
+                    <img src="Images/Index/Sobre-Nos/banner1.png">
+                </div>
             </div>
         </section>
 
