@@ -51,6 +51,22 @@
                 <p>Atuamos com fornecimento de produtos em Mármores e Granitos com envio facilitado para todo Brasil.</p>
                 <div class="imagens">
                     <div class="image">
+                        <img src="Images/Index/Sobre-Nos/imagem1.png">
+                    </div>
+                    <div class="image">
+                        <img src="Images/Index/Sobre-Nos/imagem1.png">
+                    </div>
+                    <div class="image">
+                        <img src="Images/Index/Sobre-Nos/imagem1.png">
+                    </div>
+                    <div class="image">
+                        <img src="Images/Index/Sobre-Nos/imagem1.png">
+                    </div>
+                    <div class="image">
+                        <img src="Images/Index/Sobre-Nos/imagem1.png">
+                    </div>
+                    <div class="image">
+                        <img src="Images/Index/Sobre-Nos/imagem1.png">
                     </div>
                 </div>
             </div>
