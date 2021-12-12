@@ -50,6 +50,8 @@
                 <h1>Nós</h1>
                 <p>Atuamos com fornecimento de produtos em Mármores e Granitos com envio facilitado para todo Brasil.</p>
                 <div class="imagens">
+                    <div class="image">
+                    </div>
                 </div>
             </div>
             <div>
