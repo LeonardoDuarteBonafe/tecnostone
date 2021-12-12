@@ -9,6 +9,11 @@
 }
 
 @font-face{
+    src: url(Fonts/Montserrat-Medium.otf);
+    font-family: montMedium;
+}
+
+@font-face{
     src: url(Fonts/Montserrat-Light.ttf);
     font-family: montLight;
 }
@@ -43,13 +48,80 @@ p{
     font-family: montRegular;
 }
 
+header{
+    //position: fixed;
+    z-index: 100;
+    width: 100%;
+    max-width: 1366px;
+}
+
+header nav .nav-list li a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+header nav .nav-list li a:hover{
+    opacity: 0.7;
+}
+
+header nav .logo img{
+    width: 200px !important;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0px 0 50px;
+    align-items: center;
+    align-content: flex-start !important;
+    background-color: greenyellow !Important;
+    height: 150px;
+}
+
+header nav .nav-list{
+    list-style: none;
+    display: flex;
+    margin: 0 !important;
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+
+header nav .nav-list li{
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    padding: 0 15px;
+    font-family: montMedium !important;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header nav .nav-list li a{
+    color: var(--primary-color);
+}
+
+header nav .mobile-menu{
+    display: none;
+    cursor: pointer;
+}
+
+header nav .mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background: var(--primary-color);
+    margin: 8px;
+    transition: 0.3s;
+}
+
 .social-media{
     background-color: var(--primary-color);
     width: 50px;
     padding: 50px 0;
     clip-path: polygon(0 0, 0% 0, 100% 15%, 100% 85%, 0% 100%, 0% 100%);
     position: fixed;
-    margin-top: 10%;
+    margin-top: 200px;
 }
 
 .social-media img{
@@ -60,8 +132,8 @@ p{
 }
 
 .titulo{
-    margin: 20px 0;
-    /background-color: red;
+    padding: 20px 0;
+    background-color: red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -323,6 +395,77 @@ footer{
 
 footer img{
     width: 250px;
+}
+
+@media (max-width: 991px){
+
+header nav{
+        padding: 0 25px 0 35px;
+        height: 100px;
+    }
+
+    header nav .logo{
+        width: 150px !important;
+    }
+
+    header nav .logo img{
+        width: 100% !important;
+    }
+
+    header nav .nav-list{
+        position: absolute;
+        //top: var(--offset-navbar-mobile);
+        top: 100px;
+        right: 0;
+        width: 300px;
+        height: 250px;
+        padding: 0 !Important;
+        background: white;
+        z-index: 100;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+
+    header nav .nav-list li{
+        margin-left: 0;
+        opacity: 0;
+        border: none;
+    }
+
+    header nav .mobile-menu{
+        display: block;
+    }
+
+    header nav .mobile-menu.active .line1{
+        transform: rotate(-45deg) translate(-8px, 8px);
+    }
+
+    header nav .mobile-menu.active .line2{
+        opacity: 0;
+    }
+
+    header nav .mobile-menu.active .line3{
+        transform: rotate(45deg) translate(-5px, -7px);
+    }
+
+    header nav .nav-list.active{
+        transform: translateX(0);
+    }
+
+    @keyframes navLinkFade{
+        from{
+            opacity: 0;
+            transform: translateX(100px);
+        }
+        to{
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+
 }
 
 @media only screen and (max-width: 767px)

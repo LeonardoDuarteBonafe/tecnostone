@@ -1,6 +1,6 @@
 window.addEventListener("DOMContentLoaded", function () {
 
-    var language = {
+   /* var language = {
         eng: {
             navbar: {
                 inicio: "HOME",
@@ -128,7 +128,7 @@ window.addEventListener("DOMContentLoaded", function () {
     $('.facebook').click(function(){
         window.open('https://www.facebook.com/MARGILGRANITOSEMARMORES', '_blank'); 
     });
-
+*/
     class MobileNavbar{
         constructor(mobileMenu, navList, navLinks){
             this.mobileMenu = document.querySelector(mobileMenu);
@@ -169,6 +169,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
     mobileNavbar.init();
 
+    /*
     var gallery_swiper = new Swiper(".gallery-swiper", {
         effect: "coverflow",
         centeredSlides: true,
@@ -304,5 +305,5 @@ window.addEventListener("DOMContentLoaded", function () {
             jQuery('#top-carousel-info .carousel-indicators #' + indicatorID).click();
         });
     });
-
+*/
 });

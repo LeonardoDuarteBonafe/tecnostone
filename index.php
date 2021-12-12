@@ -26,6 +26,36 @@
 //include 'php/maps.html';
 //include 'php/footer.html';
 ?>-->
+        <header>
+            <nav>
+                <a class="logo" href="index.php">
+                    <img src="Images/Index/Navbar/logo.png"></a>
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="index.php">HOME</a></li>
+                    <li><a href="empresa.php">SOLUÇÕES</a></li>
+                    <li><a href="index.php#materiais">ACABAMENTO</a></li>
+                    <li><a href="index.php#jazidas">OBRAS REALIZADAS</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section class="sobre-nos">
+            <div>
+                <h2>Sobre</h2>
+                <h1>Nós</h1>
+                <p>Atuamos com fornecimento de produtos em Mármores e Granitos com envio facilitado para todo Brasil.</p>
+                <div class="imagens">
+                </div>
+            </div>
+            <div>
+            </div>
+        </section>
+
 
         <section class="social-media">
             <div>
@@ -33,9 +63,9 @@
                 <img src="Images/Index/Social-Media/logo-facebook.png">
                 <img src="Images/Index/Social-Media/logo-whatsapp.png">
             </div>
-            
+
         </section>
-        
+
         <section class="nossas-solucoes galeria">
             <div class="titulo">
                 <img src="Images/Index/logo-titulo.png">
