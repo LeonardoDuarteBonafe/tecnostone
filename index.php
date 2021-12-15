@@ -46,8 +46,9 @@
         
         <section class="sobre-nos">
             <div class="box conteudo">
-                <h2>Sobre</h2>
-                <h1>Nós</h1>
+                <!--<h2>Sobre</h2>
+                <h1>Nós</h1>-->
+                <img src="Images/Index/Sobre-Nos/sobre-nos.png">
                 <p>Atuamos com fornecimento de produtos em Mármores e Granitos com envio facilitado para todo Brasil.</p>
                 <div class="imagens">
                     <div class="image">
