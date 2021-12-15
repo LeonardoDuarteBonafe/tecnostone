@@ -580,6 +580,119 @@ footer img{
 
 @media only screen and (max-width: 767px)
 {
+    .sobre-nos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 100%;
+        margin-top: 0px;
+    }
+
+    .sobre-nos .box.conteudo{
+        width: 100%;
+        /background-color: aquamarine;
+        display: flex;
+        align-content: center;
+        padding: 0 10px;
+    }
+
+    .sobre-nos .box.conteudo img{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /*.sobre-nos .box.conteudo h2{
+    width: 100%;
+    background-color: blueviolet;
+    margin: 0;
+}
+
+    .sobre-nos .box.conteudo h1{
+    width: 100%;
+    background-color: burlywood;
+    margin: 0;
+}*/
+
+    .sobre-nos .box.conteudo p{
+        font-size: 1.3em;
+        text-align: center;
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .sobre-nos .box.conteudo .imagens {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .sobre-nos .box.conteudo .imagens .image{
+        width: 60px;
+        margin: 3px !important;
+        height: 50px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .sobre-nos .box.conteudo .imagens .image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    /*.sobre-nos .box.conteudo .imagens .image:last-child{
+    margin-right: 0;
+}
+    .sobre-nos .box.conteudo .imagens .image:first-child{
+    margin-left: 0;
+}*/
+
+    .sobre-nos .box.imagens{
+        width: 100%;
+        height: 300px;
+        //background-color: blanchedalmond;
+        position: relative;
+        margin: 20px 0;
+    }
+
+    .sobre-nos .box.imagens .bloco-verde{
+        /*position: absolute;
+        right: 50px;
+        background-color: var(--secondary-color);
+        width: 100%;
+        height: 100%;
+        clip-path: polygon(20% 25%, 100% 5%, 100% 95%, 20% 75%);*/
+        display: none;
+    }
+
+    .sobre-nos .box.imagens .bloco-azul{
+        /*position: absolute;
+        right: 70px;;
+        background-color: var(--primary-color);
+        width: 100%;
+        height: 100%;
+        clip-path: polygon(20% 20%, 100% 2.5%, 100% 97.5%, 20% 80%);*/
+        display: none;
+    }
+
+    .sobre-nos .box.imagens .bloco-imagem{
+        right: 0px;
+        background-color: yellow;
+        width: 100%;
+        height: 100%;
+        padding: 0 5%;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    .sobre-nos .box.imagens .bloco-imagem img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
     .cores .info .painel{
         width: 80%;
     }
@@ -697,8 +810,156 @@ footer img{
 
 }
 
+@media only screen and (min-width: 500px) and (max-width: 767px){
+    .sobre-nos .box.conteudo img{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .sobre-nos .box.conteudo p{
+        font-size: 1.5em;
+        text-align: center;
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .sobre-nos .box.conteudo .imagens{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .sobre-nos .box.conteudo .imagens .image{
+        width: 80px;
+        margin: 7px !important;
+        height: 60px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .sobre-nos .box.imagens{
+        width: 100%;
+        height: 500px !important;
+        //background-color: blanchedalmond;
+        position: relative;
+        margin: 20px 0;
+    }
+
+    .sobre-nos .box.imagens .bloco-verde{
+        /*position: absolute;
+        right: 50px;
+        background-color: var(--secondary-color);
+        width: 100%;
+        height: 100%;
+        clip-path: polygon(20% 25%, 100% 5%, 100% 95%, 20% 75%);*/
+        display: none;
+    }
+
+    .sobre-nos .box.imagens .bloco-azul{
+        /*position: absolute;
+        right: 70px;;
+        background-color: var(--primary-color);
+        width: 100%;
+        height: 100%;
+        clip-path: polygon(20% 20%, 100% 2.5%, 100% 97.5%, 20% 80%);*/
+        display: none;
+    }
+
+    .sobre-nos .box.imagens .bloco-imagem{
+        right: 0px;
+        background-color: yellow;
+        width: 100%;
+        height: 100%;
+        padding: 0 10%;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px)
 {    
+    .sobre-nos{
+        height: 600px;
+        margin-top: 0px;
+    }
+
+    .sobre-nos .box.conteudo{
+        /background-color: aquamarine;
+        padding: 0 20px;
+    }
+    
+    .sobre-nos .box.conteudo img{
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .sobre-nos .box.conteudo p{
+        width: 90%;
+        margin: 15px auto;
+        font-size: 1.4em;
+    }
+
+    .sobre-nos .box.conteudo .imagens {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .sobre-nos .box.conteudo .imagens .image{
+        width: 70px;
+        margin: 5px !important;
+        height: 60px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .sobre-nos .box.conteudo .imagens .image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .sobre-nos .box.imagens{
+        width: 60%;
+        //background-color: blanchedalmond;
+        position: relative;
+    }
+
+    .sobre-nos .box.imagens .bloco-verde{
+        position: absolute;
+        right: 50px;;
+        background-color: var(--secondary-color);
+        width: 100%;
+        height: 100%;
+        clip-path: polygon(20% 25%, 100% 5%, 100% 95%, 20% 75%);
+    }
+
+    .sobre-nos .box.imagens .bloco-azul{
+        position: absolute;
+        right: 70px;;
+        background-color: var(--primary-color);
+        width: 100%;
+        height: 100%;
+        clip-path: polygon(20% 20%, 100% 2.5%, 100% 97.5%, 20% 80%);
+    }
+
+    .sobre-nos .box.imagens .bloco-imagem{
+        position: absolute;
+        right: 90px;;
+        background-color: red;
+        width: 100%;
+        height: 100%;
+        clip-path: polygon(20% 15%, 100% 0%, 100% 100%, 20% 85%);
+    }
+
+    .sobre-nos .box.imagens .bloco-imagem img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+
     .cores .info .painel{
         width: 75%;
     }
@@ -754,7 +1015,7 @@ footer img{
         padding: 0 7px;
         font-family: montMedium !important;
     }
-    
+
     header nav .nav-list li:first-child{
         padding-left: 0;
     } 
