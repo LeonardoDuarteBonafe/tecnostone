@@ -169,6 +169,11 @@ margin: 0;
     height: 70px;
     overflow: hidden;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.sobre-nos .box.conteudo .imagens .image:hover{
+    transform: scale(1.1);
 }
 
 .sobre-nos .box.conteudo .imagens .image img{

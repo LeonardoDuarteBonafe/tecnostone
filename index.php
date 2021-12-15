@@ -55,19 +55,19 @@
                         <img src="Images/Index/Sobre-Nos/imagem1.png">
                     </div>
                     <div class="image">
-                        <img src="Images/Index/Sobre-Nos/imagem1.png">
+                        <img src="Images/Index/Sobre-Nos/imagem2.png">
                     </div>
                     <div class="image">
-                        <img src="Images/Index/Sobre-Nos/imagem1.png">
+                        <img src="Images/Index/Sobre-Nos/imagem3.png">
                     </div>
                     <div class="image">
-                        <img src="Images/Index/Sobre-Nos/imagem1.png">
+                        <img src="Images/Index/Sobre-Nos/imagem4.png">
                     </div>
                     <div class="image">
-                        <img src="Images/Index/Sobre-Nos/imagem1.png">
+                        <img src="Images/Index/Sobre-Nos/imagem5.png">
                     </div>
                     <div class="image">
-                        <img src="Images/Index/Sobre-Nos/imagem1.png">
+                        <img src="Images/Index/Sobre-Nos/imagem6.png">
                     </div>
                 </div>
             </div>
