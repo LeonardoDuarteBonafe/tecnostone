@@ -290,13 +290,13 @@
                 </div>
                 <div class="info">
                     <section>
-                        <img src="Images/Index/painel.png">
+                        <img src="Images/Index/Form/email.png">
                         <p>
                             thiago@tecnostone.com.br 
                         </p>
                     </section>
                     <section>
-                        <img src="Images/Index/painel.png">
+                        <img src="Images/Index/Form/telefone.png">
                         <p>
                             +55 28 99885-5718
                         </p>
