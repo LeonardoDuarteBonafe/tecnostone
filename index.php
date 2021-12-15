@@ -97,16 +97,16 @@
             </div>
             <div class="conteudo">
                 <div class="imagens">
-                    <div>
+                    <div class="box">
                         <img src="Images/Index/Nossas-Solucoes/imagem1.png">
                     </div>
-                    <div>
+                    <div class="box">
                         <img src="Images/Index/Nossas-Solucoes/imagem2.png">
                     </div>
-                    <div>
+                    <div class="box">
                         <img src="Images/Index/Nossas-Solucoes/imagem3.png">
                     </div>
-                    <div>
+                    <div class="box">
                         <img src="Images/Index/Nossas-Solucoes/imagem4.png">
                     </div>
                 </div>
@@ -179,25 +179,25 @@
             </div>
             <div class="conteudo">
                 <div class="imagens">
-                    <div>
+                    <div class="box">
                         <div>
                             <img src="Images/Index/Acabamentos/imagem1.png">
                         </div>
                         <p>escovado</p>
                     </div>
-                    <div>
+                    <div class="box">
                         <div>
                             <img src="Images/Index/Acabamentos/imagem2.png">
                         </div>
                         <p>flameado</p>
                     </div>
-                    <div>
+                    <div class="box">
                         <div>
                             <img src="Images/Index/Acabamentos/imagem3.png">
                         </div>
                         <p>jateado</p>
                     </div>
-                    <div>
+                    <div class="box">
                         <div>
                             <img src="Images/Index/Acabamentos/imagem4.png">
                         </div>
@@ -226,13 +226,13 @@
             </div>
             <div class="conteudo">
                 <div class="imagens">
-                    <div>
+                    <div class="box">
                         <img src="Images/Index/Obras-Realizadas/imagem1.png"></div>
-                    <div>
+                    <div class="box">
                         <img src="Images/Index/Obras-Realizadas/imagem2.png"></div>
-                    <div>
+                    <div class="box">
                         <img src="Images/Index/Obras-Realizadas/imagem3.png"></div>
-                    <div>
+                    <div class="box">
                         <img src="Images/Index/Obras-Realizadas/imagem4.png"></div> 
                 </div>
             </div>

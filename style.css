@@ -284,6 +284,7 @@ margin: 0;
     //background-color: blue !important;
     object-fit: contain;
     overflow: hidden;
+    transition: 1s;
 }
 
 .galeria .conteudo .imagens div:nth-child(even){
@@ -299,8 +300,12 @@ margin: 0;
     z-index: 0;
 }
 
-.galeria .conteudo .imagens div img:hover{
-    transform: scale(1.2);
+.galeria .conteudo .imagens .box{
+    transform: scale(0.95);
+}
+
+.galeria .conteudo .imagens .box:hover{
+    transform: scale(1.05);
 }
 
 .nossas-solucoes .conteudo .texto{
@@ -719,10 +724,6 @@ footer img{
         transform: translateY(0px);
     }
 
-    .galeria .conteudo .imagens div img:hover{
-        transform: scale(1.2);
-    }
-
     /*.galeria .conteudo{
     width: 80%;
 }
@@ -943,10 +944,6 @@ footer img{
 
     .galeria .conteudo .imagens div:nth-child(even){
         transform: translateY(0px);
-    }
-
-    .galeria .conteudo .imagens div img:hover{
-        transform: scale(1.2);
     }
 }
 
