@@ -37,9 +37,9 @@
                 </div>
                 <ul class="nav-list">
                     <li><a href="index.php">HOME</a></li>
-                    <li><a href="empresa.php">SOLUÇÕES</a></li>
-                    <li><a href="index.php#materiais">ACABAMENTO</a></li>
-                    <li><a href="index.php#jazidas">OBRAS REALIZADAS</a></li>
+                    <li><a href="#nossas-solucoes">SOLUÇÕES</a></li>
+                    <li><a href="#acabamentos">ACABAMENTO</a></li>
+                    <li><a href="#obras-realizadas">OBRAS REALIZADAS</a></li>
                 </ul>
             </nav>
         </header>
@@ -90,7 +90,7 @@
 
         </section>
 
-        <section class="nossas-solucoes galeria">
+        <section class="nossas-solucoes galeria" id="nossas-solucoes">
             <div class="titulo">
                 <img src="Images/Index/logo-titulo.png">
                 <h1>Nossas soluções</h1>
@@ -172,7 +172,7 @@
             </div>
         </section>
 
-        <section class="acabamentos galeria">
+        <section class="acabamentos galeria" id="acabamentos">
             <div class="titulo">
                 <img src="Images/Index/logo-titulo.png">
                 <h1>Acabamentos</h1>
@@ -219,7 +219,7 @@
             </div>
         </section>
 
-        <section class="obras-realizadas galeria">
+        <section class="obras-realizadas galeria" id="obras-realizadas">
             <div class="titulo">
                 <img src="Images/Index/logo-titulo.png">
                 <h1>Obras realizadas</h1>
