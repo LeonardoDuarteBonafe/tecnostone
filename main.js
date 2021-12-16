@@ -169,6 +169,69 @@ window.addEventListener("DOMContentLoaded", function () {
 
     mobileNavbar.init();
 
+    $('.buttonEmail').click(function(){
+        getFormInfos();
+    });
+
+    function getFormInfos(){
+        var emailMessage = "";
+        var nome = document.querySelector('#nome').value;
+        var email = document.querySelector('#email').value;
+        var telefone = document.querySelector('#telefone').value;
+        var setor = document.querySelector('#setor').value;
+        var mensagem = document.querySelector('#mensagem').value;
+
+        emailMessage += "Nome: " + nome + ". <br>";
+        emailMessage += "Email: " + email + ". <br>";
+        emailMessage += "Telefone: " + telefone + ". <br>";
+        emailMessage += "Setor: " + setor + ". <br>";
+        emailMessage += "Mensagem: " + mensagem + ". <br>";
+        
+        console.log('teste click');
+        if(nome === "" || email === ""){
+            var pageLanguage = localStorage.getItem("language");
+            if(pageLanguage == "eng"){
+                document.getElementsByName('nome')[0].placeholder='Please insert your NAME!';
+                document.getElementsByName('email')[0].placeholder='Please insert your EMAIL!';
+            }
+            else{
+                document.getElementsByName('nome')[0].placeholder='Por favor, insira seu NOME!';
+                document.getElementsByName('email')[0].placeholder='Por favor, insira seu EMAIL!';
+            }
+            $('.form-nome').addClass('form-required');
+            $('.form-email').addClass('form-required');
+        }
+        else{
+            
+            sendEmail(nome, email, emailMessage);
+        }
+    }
+
+    function sendEmail(name, email, message){
+        Email.send({
+            Host: "smtp.gmail.com",
+            //Username: 'ldbmaildealer@gmail.com',
+            Username: 'leonardodbonafe@gmail.com',
+            //Password: "jzkocqnlqfdoeuhr",
+            Password: "ppbnvpviefcyquhu",
+            //To: `adm2@margilgranitos.com.br`,
+            To: 'leo_nardo136@hotmail.com',
+            From: 'ldbmaildealer@gmail.com',
+            Subject: `${name} tem interesse no seu produto!`,
+            Body: `${message}`,
+        }).then(function(message){
+            var pageLanguage = localStorage.getItem("language");
+            if(pageLanguage == "eng"){
+                alert("Your email was sent successfully");
+            }
+            else{
+                alert("Seu email foi enviado com sucesso");
+            }
+            window.location.reload(false); 
+        }); 
+    }
+
+    
     /*
     var gallery_swiper = new Swiper(".gallery-swiper", {
         effect: "coverflow",
