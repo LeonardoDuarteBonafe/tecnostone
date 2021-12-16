@@ -51,22 +51,22 @@
                 <img src="Images/Index/Sobre-Nos/sobre-nos.png">
                 <p>Atuamos com fornecimento de produtos em Mármores e Granitos com envio facilitado para todo Brasil.</p>
                 <div class="imagens">
-                    <div class="image">
+                    <div class="image" id="banner1">
                         <img src="Images/Index/Sobre-Nos/imagem1.png">
                     </div>
-                    <div class="image">
+                    <div class="image" id="banner2">
                         <img src="Images/Index/Sobre-Nos/imagem2.png">
                     </div>
-                    <div class="image">
+                    <div class="image" id="banner3">
                         <img src="Images/Index/Sobre-Nos/imagem3.png">
                     </div>
-                    <div class="image">
+                    <div class="image" id="banner4">
                         <img src="Images/Index/Sobre-Nos/imagem4.png">
                     </div>
-                    <div class="image">
+                    <div class="image" id="banner5">
                         <img src="Images/Index/Sobre-Nos/imagem5.png">
                     </div>
-                    <div class="image">
+                    <div class="image" id="banner6">
                         <img src="Images/Index/Sobre-Nos/imagem6.png">
                     </div>
                 </div>
@@ -75,7 +75,9 @@
                 <div class="bloco-verde"></div>
                 <div class="bloco-azul"></div>
                 <div class="bloco-imagem">
-                    <img src="Images/Index/Sobre-Nos/banner1.png">
+                    <img class ="active" src="Images/Index/Sobre-Nos/banner1.png" id="banner1">
+                    <img src="Images/Index/Sobre-Nos/banner2.png" id="banner2">
+                    <img src="Images/Index/Sobre-Nos/banner3.png" id="banner3">
                 </div>
             </div>
         </section>

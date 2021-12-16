@@ -173,6 +173,11 @@ window.addEventListener("DOMContentLoaded", function () {
         getFormInfos();
     });
 
+    $('.sobre-nos .conteudo .imagens .image').click(function(){
+        console.log($(this).attr('id'));
+        $('.sobre-nos .imagens .bloco-imagem #'+ $(this).attr('id')).addClass('active').siblings().removeClass('active');
+    })
+    
     function getFormInfos(){
         var emailMessage = "";
         var nome = document.querySelector('#nome').value;
