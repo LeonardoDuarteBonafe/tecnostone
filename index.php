@@ -127,48 +127,48 @@
             </div>
             <div class="info">
                 <div class="painel">
-                    <img src="Images/Index/painel.png">
-                    <img src="Images/Index/base.png">
+                    <img src="Images/Index/Cores/painel.png">
+                    <img src="Images/Index/Cores/base.png">
                 </div>
                 <div class="opcoes-cores">
-                    <div>
-                        <img src="Images/Index/painel.png">
+                    <div id="cor1">
+                        <img src="Images/Index/Cores/cor1.png">
                     </div>
-                    <div>
-                        <img src="Images/Index/painel.png">
+                    <div id="cor2">
+                        <img src="Images/Index/Cores/cor2.png">
                     </div>
-                    <div>
-                        <img src="Images/Index/painel.png">
+                    <div id="cor3">
+                        <img src="Images/Index/Cores/cor3.png">
                     </div>
-                    <div>
-                        <img src="Images/Index/painel.png">
+                    <div id="cor4">
+                        <img src="Images/Index/Cores/cor4.png">
                     </div>
-                    <div>
-                        <img src="Images/Index/painel.png">
+                    <div id="cor5">
+                        <img src="Images/Index/Cores/cor5.png">
                     </div>
-                    <div>
-                        <img src="Images/Index/painel.png">
+                    <div id="cor6">
+                        <img src="Images/Index/Cores/cor3.png">
                     </div>
-                    <div>
-                        <img src="Images/Index/painel.png">
+                    <div id="cor7">
+                        <img src="Images/Index/Cores/cor1.png">
                     </div>
-                    <div>
-                        <img src="Images/Index/painel.png">
+                    <div id="cor8">
+                        <img src="Images/Index/Cores/cor5.png">
                     </div>
-                    <div>
-                        <img src="Images/Index/painel.png">
+                    <div id="cor9">
+                        <img src="Images/Index/Cores/cor2.png">
                     </div>
-                    <div>
-                        <img src="Images/Index/painel.png">
+                    <div id="cor10">
+                        <img src="Images/Index/Cores/cor4.png">
                     </div>
-                    <div>
-                        <img src="Images/Index/painel.png">
+                    <div id="cor11">
+                        <img src="Images/Index/Cores/cor1.png">
                     </div>
-                    <div>
-                        <img src="Images/Index/painel.png">
+                    <div id="cor12">
+                        <img src="Images/Index/Cores/cor3.png">
                     </div>
-                    <div>
-                        <img src="Images/Index/painel.png">
+                    <div id="cor13">
+                        <img src="Images/Index/Cores/cor5.png">
                     </div>
                 </div>
             </div>

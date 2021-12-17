@@ -351,7 +351,8 @@ margin: 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     justify-content: center;
     //background-color: pink;
 }
@@ -361,15 +362,35 @@ margin: 0;
     width: 100px;
     height: 75px;
     margin: 7px;
-    object-fit: cover;
-    object-position: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.5s;
 }
 
+.cores .info .opcoes-cores div:hover{
+    transform: scale(1.1);
+}
 .cores .info .opcoes-cores div img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    object-position: center;
     overflow: hidden;
 }
+
+.active-material-painel{
+    animation: openImage 0.5s forwards;
+}
+
+@keyframes openImage {
+    from {
+        opacity: 0.7;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 
 .acabamentos{
     background-color: #EDEDEF;

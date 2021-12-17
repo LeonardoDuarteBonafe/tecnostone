@@ -178,6 +178,19 @@ window.addEventListener("DOMContentLoaded", function () {
         $('.sobre-nos .imagens .bloco-imagem #'+ $(this).attr('id')).addClass('active').siblings().removeClass('active');
     })
     
+    $('.cores .info .opcoes-cores div').click(function(){
+        console.log($(this).attr('id'));
+        var imagemPainelUrl = "Images/Index/Cores/";
+        var corClicada = $(this).attr('id');
+        
+        $('.cores .info .painel').children("img").eq(0).attr('src', imagemPainelUrl + corClicada + '.png');
+        
+        $('.cores .info .painel').children("img").eq(0).addClass('active-material-painel');
+        $('.cores .info .painel').children("img").eq(0).on("animationend", function(){
+            $(this).removeClass('active-material-painel');
+        });
+    })
+    
     function getFormInfos(){
         var emailMessage = "";
         var nome = document.querySelector('#nome').value;
