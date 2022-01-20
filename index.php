@@ -15,6 +15,9 @@
 
     <script src="https://smtpjs.com/v3/smtp.js"></script>
 
+    <link rel="stylesheet" type="text/css" href="lightbox.min.css">
+    <script type="text/javascript" src="lightbox-plus-jquery.min.js"></script>
+
     <link rel="icon" href="">
     <title>Tecno Stone</title>
 
@@ -43,11 +46,11 @@
                 </ul>
             </nav>
         </header>
-        
+
         <section class="sobre-nos">
             <div class="box conteudo">
                 <!--<h2>Sobre</h2>
-                <h1>Nós</h1>-->
+<h1>Nós</h1>-->
                 <img src="Images/Index/Sobre-Nos/sobre-nos.png">
                 <p>Atuamos com fornecimento de produtos em Mármores e Granitos com envio facilitado para todo Brasil.</p>
                 <div class="imagens">
@@ -87,7 +90,7 @@
             <div>
                 <img src="Images/Index/Social-Media/logo-instagram.png">
                 <img src="Images/Index/Social-Media/logo-facebook.png">
-                <img src="Images/Index/Social-Media/logo-whatsapp.png">
+                <img class="whatsapp" src="Images/Index/Social-Media/logo-whatsapp.png">
             </div>
 
         </section>
@@ -127,48 +130,72 @@
             </div>
             <div class="info">
                 <div class="painel">
-                    <img src="Images/Index/Cores/painel.png">
+                    <img src="Images/Index/Cores/Amarelo-Arabesco.png">
                     <img src="Images/Index/Cores/base.png">
                 </div>
                 <div class="opcoes-cores">
-                    <div id="cor1">
-                        <img src="Images/Index/Cores/cor1.png">
+                    <div id="Amarelo-Arabesco">
+                        <img src="Images/Index/Cores/Amarelo-Arabesco.png">
                     </div>
-                    <div id="cor2">
-                        <img src="Images/Index/Cores/cor2.png">
+                    <div id="Amarelo-Capri">
+                        <img src="Images/Index/Cores/Amarelo-Capri.png">
                     </div>
-                    <div id="cor3">
-                        <img src="Images/Index/Cores/cor3.png">
+                    <div id="Amarelo-Icarai">
+                        <img src="Images/Index/Cores/Amarelo-Icarai.png">
                     </div>
-                    <div id="cor4">
-                        <img src="Images/Index/Cores/cor4.png">
+                    <div id="Amarelo-Maracuja">
+                        <img src="Images/Index/Cores/Amarelo-Maracuja.png">
                     </div>
-                    <div id="cor5">
-                        <img src="Images/Index/Cores/cor5.png">
+                    <div id="Amarelo-Ornamental">
+                        <img src="Images/Index/Cores/Amarelo-Ornamental.png">
                     </div>
-                    <div id="cor6">
-                        <img src="Images/Index/Cores/cor3.png">
+                    <div id="Amarelo-St-Cecilia">
+                        <img src="Images/Index/Cores/Amarelo-St-Cecilia.png">
                     </div>
-                    <div id="cor7">
-                        <img src="Images/Index/Cores/cor1.png">
+                    <div id="Branco-Dallas">
+                        <img src="Images/Index/Cores/Branco-Dallas.png">
                     </div>
-                    <div id="cor8">
-                        <img src="Images/Index/Cores/cor5.png">
+                    <div id="Branco-Fortaleza">
+                        <img src="Images/Index/Cores/Branco-Fortaleza.png">
                     </div>
-                    <div id="cor9">
-                        <img src="Images/Index/Cores/cor2.png">
+                    <div id="Branco-Itaunas">
+                        <img src="Images/Index/Cores/Branco-Itaunas.png">
                     </div>
-                    <div id="cor10">
-                        <img src="Images/Index/Cores/cor4.png">
+                    <div id="Branco-Kashmir">
+                        <img src="Images/Index/Cores/Branco-Kashmir.png">
                     </div>
-                    <div id="cor11">
-                        <img src="Images/Index/Cores/cor1.png">
+                    <div id="Branco-Siena">
+                        <img src="Images/Index/Cores/Branco-Siena.png">
                     </div>
-                    <div id="cor12">
-                        <img src="Images/Index/Cores/cor3.png">
+                    <div id="Cinza-Andorinha">
+                        <img src="Images/Index/Cores/Cinza-Andorinha.png">
                     </div>
-                    <div id="cor13">
-                        <img src="Images/Index/Cores/cor5.png">
+                    <div id="Cinza-Castelo">
+                        <img src="Images/Index/Cores/Cinza-Castelo.png">
+                    </div>
+                    <div id="Cinza-Corumba">
+                        <img src="Images/Index/Cores/Cinza-Corumba.png">
+                    </div>
+                    <div id="Ocre">
+                        <img src="Images/Index/Cores/Ocre.png">
+                    </div>
+                    <div id="Preto-Brasil">
+                        <img src="Images/Index/Cores/Preto-Brasil.png">
+                    </div>
+                    <div id="Preto-Indiano">
+                        <img src="Images/Index/Cores/Preto-Indiano.png">
+                    </div>
+                    <div id="Preto-Sao-Gabriel">
+                        <img src="Images/Index/Cores/Preto-Sao-Gabriel.png">
+                    </div>
+                    <div id="Verde-Perola">
+                        <img src="Images/Index/Cores/Verde-Perola.png">
+                    </div>
+                    <div id="Verde-Ubatuba">
+                        <img src="Images/Index/Cores/Verde-Ubatuba.png">
+                    </div>
+                    <div id="Via-Lactea">
+                        <img src="Images/Index/Cores/Via-Lactea.png">
                     </div>
                 </div>
             </div>
@@ -183,25 +210,33 @@
                 <div class="imagens">
                     <div class="box">
                         <div>
-                            <img src="Images/Index/Acabamentos/imagem1.png">
+                            <a href="Images/Index/Acabamentos/imagem1.png" data-lightbox="galeriaAcabamentos1" data-title="ESCOVADO">
+                                <img src="Images/Index/Acabamentos/imagem1.png">
+                            </a>
                         </div>
                         <p>escovado</p>
                     </div>
                     <div class="box">
                         <div>
-                            <img src="Images/Index/Acabamentos/imagem2.png">
+                            <a href="Images/Index/Acabamentos/imagem2.png" data-lightbox="galeriaAcabamentos2" data-title="FLAMEADO">
+                                <img src="Images/Index/Acabamentos/imagem2.png">
+                            </a>
                         </div>
                         <p>flameado</p>
                     </div>
                     <div class="box">
                         <div>
-                            <img src="Images/Index/Acabamentos/imagem3.png">
+                            <a href="Images/Index/Acabamentos/imagem3.png" data-lightbox="galeriaAcabamentos3" data-title="JATEADO">
+                                <img src="Images/Index/Acabamentos/imagem3.png">
+                            </a>
                         </div>
                         <p>jateado</p>
                     </div>
                     <div class="box">
                         <div>
-                            <img src="Images/Index/Acabamentos/imagem4.png">
+                            <a href="Images/Index/Acabamentos/imagem4.png" data-lightbox="galeriaAcabamentos4" data-title="POLIDO">
+                                <img src="Images/Index/Acabamentos/imagem4.png">
+                            </a>
                         </div>
                         <p>polido</p>
                     </div>
@@ -229,13 +264,47 @@
             <div class="conteudo">
                 <div class="imagens">
                     <div class="box">
-                        <img src="Images/Index/Obras-Realizadas/imagem1.png"></div>
+                        <a href="Images/Index/Obras-Realizadas/Galeria1/imagem2.png" data-lightbox="galeria1" data-title="">
+                            <img src="Images/Index/Obras-Realizadas/Galeria1/imagem1.png">
+                        </a>
+                        <a href="Images/Index/Obras-Realizadas/Galeria1/imagem3.png" data-lightbox="galeria1" data-title="">
+                        </a>
+                        <a href="Images/Index/Obras-Realizadas/Galeria1/imagem4.png" data-lightbox="galeria1" data-title="">
+                        </a>
+                    </div>
                     <div class="box">
-                        <img src="Images/Index/Obras-Realizadas/imagem2.png"></div>
+                        <a href="Images/Index/Obras-Realizadas/Galeria2/imagem2.png" data-lightbox="galeria2" data-title="">
+                            <img src="Images/Index/Obras-Realizadas/Galeria2/imagem1.png">
+                        </a>
+                        <a href="Images/Index/Obras-Realizadas/Galeria2/imagem3.png" data-lightbox="galeria2" data-title="">
+                        </a> 
+                        <a href="Images/Index/Obras-Realizadas/Galeria2/imagem4.png" data-lightbox="galeria2" data-title="">
+                        </a> 
+                        <a href="Images/Index/Obras-Realizadas/Galeria2/imagem5.png" data-lightbox="galeria2" data-title="">
+                        </a> 
+                    </div>
                     <div class="box">
-                        <img src="Images/Index/Obras-Realizadas/imagem3.png"></div>
+                        <a href="Images/Index/Obras-Realizadas/Galeria3/imagem2.png" data-lightbox="galeria3" data-title="">
+                            <img src="Images/Index/Obras-Realizadas/Galeria3/imagem1.png">
+                        </a>
+                        <a href="Images/Index/Obras-Realizadas/Galeria3/imagem3.png" data-lightbox="galeria3" data-title="">
+                        </a> 
+                        <a href="Images/Index/Obras-Realizadas/Galeria3/imagem4.png" data-lightbox="galeria3" data-title="">
+                        </a> 
+                        <a href="Images/Index/Obras-Realizadas/Galeria3/imagem5.png" data-lightbox="galeria3" data-title="">
+                        </a> 
+                    </div>
                     <div class="box">
-                        <img src="Images/Index/Obras-Realizadas/imagem4.png"></div> 
+                        <a href="Images/Index/Obras-Realizadas/Galeria4/imagem2.png" data-lightbox="galeria4" data-title="">
+                            <img src="Images/Index/Obras-Realizadas/Galeria4/imagem1.png">
+                        </a>
+                        <a href="Images/Index/Obras-Realizadas/Galeria4/imagem3.png" data-lightbox="galeria4" data-title="">
+                        </a> 
+                        <a href="Images/Index/Obras-Realizadas/Galeria4/imagem4.png" data-lightbox="galeria4" data-title="">
+                        </a> 
+                        <a href="Images/Index/Obras-Realizadas/Galeria4/imagem5.png" data-lightbox="galeria4" data-title="">
+                        </a> 
+                    </div> 
                 </div>
             </div>
         </section>
@@ -287,7 +356,7 @@
                 <h1>CONTATO</h1>
                 <div>
                     <p>
-                        Lorem ipsum dolor sit amet,  consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+                        <!--Lorem ipsum dolor sit amet,  consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut -->
                     </p>
                 </div>
                 <div class="info">

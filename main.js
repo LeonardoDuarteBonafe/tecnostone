@@ -1,6 +1,10 @@
 window.addEventListener("DOMContentLoaded", function () {
 
-   /* var language = {
+    $('.whatsapp').click(function(){
+        window.open('https://api.whatsapp.com/send?phone=5528998855718&text=Ol%C3%A1%2C+tenho+interesse+no+seu+produto!', '_blank'); 
+    });
+    
+    /* var language = {
         eng: {
             navbar: {
                 inicio: "HOME",
@@ -173,10 +177,10 @@ window.addEventListener("DOMContentLoaded", function () {
         getFormInfos();
     });
 
-    $('.sobre-nos .conteudo .imagens .image').click(function(){
+    /*$('.sobre-nos .conteudo .imagens .image').click(function(){
         console.log($(this).attr('id'));
         $('.sobre-nos .imagens .bloco-imagem #'+ $(this).attr('id')).addClass('active').siblings().removeClass('active');
-    })
+    })*/
     
     $('.cores .info .opcoes-cores div').click(function(){
         console.log($(this).attr('id'));
@@ -233,7 +237,7 @@ window.addEventListener("DOMContentLoaded", function () {
             //Password: "jzkocqnlqfdoeuhr",
             Password: "ppbnvpviefcyquhu",
             //To: `adm2@margilgranitos.com.br`,
-            To: 'leo_nardo136@hotmail.com',
+            To: 'thiago@tecnostone.com.br',
             From: 'ldbmaildealer@gmail.com',
             Subject: `${name} tem interesse no seu produto!`,
             Body: `${message}`,
