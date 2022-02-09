@@ -1,9 +1,47 @@
 window.addEventListener("DOMContentLoaded", function () {
 
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        slidesPerGroup: 1,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        autoplay: {
+          delay: 1000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          300: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },  
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+        },
+    });
+
     $('.whatsapp').click(function(){
         window.open('https://api.whatsapp.com/send?phone=5528998855718&text=Ol%C3%A1%2C+tenho+interesse+no+seu+produto!', '_blank'); 
     });
-    
+
     /* var language = {
         eng: {
             navbar: {
@@ -63,13 +101,13 @@ window.addEventListener("DOMContentLoaded", function () {
                     title: "MATERIALS LINE",
                 },
             },
-            
+
         },
         pt: {
 
         }
     };
-    
+
     var pageLanguage = localStorage.getItem("language");
     if(pageLanguage == "eng"){
         //navbar
@@ -78,20 +116,20 @@ window.addEventListener("DOMContentLoaded", function () {
         $('nav .nav-list').children("li").eq(2).children("a").text(language.eng.navbar.materiais);
         $('nav .nav-list').children("li").eq(3).children("a").text(language.eng.navbar.jazidas);
         $('nav .nav-list').children("li").eq(4).children("a").text(language.eng.navbar.contato);
-        
+
         //top-carousel-info
         $('#top-carousel-info .text').text(language.eng.top_carousel_info.text);
-        
+
         //destaques
         $('.destaques .title').text(language.eng.destaques.title);
-        
+
         //materiais
         $('.materiais .title').text(language.eng.materiais.title);
-        
+
         //jazidas
         $('.jazidas .title').text(language.eng.jazidas.title);
         $('.jazidas .text').text(language.eng.jazidas.text);
-        
+
         //form
         $('.contato .title').text(language.eng.form.title);
         $('.form #nome').attr("placeholder", language.eng.form.nome);
@@ -102,14 +140,14 @@ window.addEventListener("DOMContentLoaded", function () {
         $('.form #estado').attr("placeholder", language.eng.form.estado);
         $('.form #mensagem').attr("placeholder", language.eng.form.mensagem);
         $('.buttonEmail').text(language.eng.form.enviar);
-        
+
         //page-empresa
         $(".page-empresa .empresa .title").text(language.eng.navbar.empresa);
         $(".page-empresa .empresa .info .text p").html(language.eng.empresa.text);
-        
+
         //page-materiais
         $('.page-materiais .jazida .title').text(language.eng.page_materiais.jazida.title);
-        
+
         $('.page-materiais .linha .title').text(language.eng.page_materiais.linha.title);
     }
 
@@ -124,11 +162,11 @@ window.addEventListener("DOMContentLoaded", function () {
     $('.whatsapp').click(function(){
         window.open('https://api.whatsapp.com/send?phone=5528999187924&text=Ol%C3%A1%2C+tenho+interesse+no+seu+produto!', '_blank'); 
     });
-    
+
     $('.instagram').click(function(){
         window.open('https://www.instagram.com/margilgranitos/', '_blank'); 
     });
-    
+
     $('.facebook').click(function(){
         window.open('https://www.facebook.com/MARGILGRANITOSEMARMORES', '_blank'); 
     });
@@ -181,20 +219,23 @@ window.addEventListener("DOMContentLoaded", function () {
         console.log($(this).attr('id'));
         $('.sobre-nos .imagens .bloco-imagem #'+ $(this).attr('id')).addClass('active').siblings().removeClass('active');
     })*/
-    
+
     $('.cores .info .opcoes-cores div').click(function(){
         console.log($(this).attr('id'));
         var imagemPainelUrl = "Images/Index/Cores/";
         var corClicada = $(this).attr('id');
-        
+
         $('.cores .info .painel').children("img").eq(0).attr('src', imagemPainelUrl + corClicada + '.png');
-        
+
         $('.cores .info .painel').children("img").eq(0).addClass('active-material-painel');
         $('.cores .info .painel').children("img").eq(0).on("animationend", function(){
             $(this).removeClass('active-material-painel');
         });
+        
+        $('.cores .info .painel h1').text($(this).attr('product-name'));
+        
     })
-    
+
     function getFormInfos(){
         var emailMessage = "";
         var nome = document.querySelector('#nome').value;
@@ -208,7 +249,7 @@ window.addEventListener("DOMContentLoaded", function () {
         emailMessage += "Telefone: " + telefone + ". <br>";
         emailMessage += "Setor: " + setor + ". <br>";
         emailMessage += "Mensagem: " + mensagem + ". <br>";
-        
+
         console.log('teste click');
         if(nome === "" || email === ""){
             var pageLanguage = localStorage.getItem("language");
@@ -224,7 +265,7 @@ window.addEventListener("DOMContentLoaded", function () {
             $('.form-email').addClass('form-required');
         }
         else{
-            
+
             sendEmail(nome, email, emailMessage);
         }
     }
@@ -253,7 +294,7 @@ window.addEventListener("DOMContentLoaded", function () {
         }); 
     }
 
-    
+
     /*
     var gallery_swiper = new Swiper(".gallery-swiper", {
         effect: "coverflow",
@@ -285,7 +326,7 @@ window.addEventListener("DOMContentLoaded", function () {
         window.location.href = "materiais.php";
 
     });
-    
+
     $('.destaques .box').click(function(){
         localStorage.setItem("nameMaterial", $(this).attr('id'));
         localStorage.setItem("clickedMaterial", "true");

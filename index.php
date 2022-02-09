@@ -78,12 +78,39 @@
                 <div class="bloco-verde"></div>
                 <div class="bloco-azul"></div>
                 <div class="bloco-imagem">
-                    <img class ="active" src="Images/Index/Sobre-Nos/banner1.png" id="banner1">
-                    <img src="Images/Index/Sobre-Nos/banner2.png" id="banner2">
-                    <img src="Images/Index/Sobre-Nos/banner3.png" id="banner3">
+                    <!--<img class ="active" src="Images/Index/Sobre-Nos/banner1.png" id="banner1">
+<img src="Images/Index/Sobre-Nos/banner2.png" id="banner2">
+<img src="Images/Index/Sobre-Nos/banner3.png" id="banner3">-->
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="1000" data-pause="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" style="background-image: url('Images/Index/Sobre-Nos/banner1.png');">
+                                <!--<img class="d-block w-100" src="Images/Index/Sobre-Nos/banner1.png" alt="First slide">-->
+                            </div>
+                            <div class="carousel-item" style="background-image: url('Images/Index/Sobre-Nos/banner2.png');">
+                                <!--<img class="d-block w-100" src="Images/Index/Sobre-Nos/banner2.png" alt="Second slide">-->
+                            </div>
+                            <div class="carousel-item" style="background-image: url('Images/Index/Sobre-Nos/banner3.png');">
+                                <!--<img class="d-block w-100" src="Images/Index/Sobre-Nos/banner3.png" alt="Third slide">-->
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
+
+        <!--<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="1000" data-pause="false">
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img class="d-block w-100" src="Images/Index/Sobre-Nos/banner1.png" alt="First slide">
+</div>
+<div class="carousel-item">
+<img class="d-block w-100" src="Images/Index/Sobre-Nos/banner2.png" alt="Second slide">
+</div>
+<div class="carousel-item">
+<img class="d-block w-100" src="Images/Index/Sobre-Nos/banner3.png" alt="Third slide">
+</div>
+</div>
+</div>-->
 
 
         <section class="social-media">
@@ -101,19 +128,41 @@
                 <h1>Nossas soluções</h1>
             </div>
             <div class="conteudo">
-                <div class="imagens">
-                    <div class="box">
-                        <img src="Images/Index/Nossas-Solucoes/imagem1.png">
+                <!--<div class="imagens">
+<div class="box">
+<img src="Images/Index/Nossas-Solucoes/imagem1.png">
+</div>
+<div class="box">
+<img src="Images/Index/Nossas-Solucoes/imagem2.png">
+</div>
+<div class="box">
+<img src="Images/Index/Nossas-Solucoes/imagem3.png">
+</div>
+<div class="box">
+<img src="Images/Index/Nossas-Solucoes/imagem4.png">
+</div>
+</div>-->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="Images/Index/Nossas-Solucoes/imagem1.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="Images/Index/Nossas-Solucoes/imagem2.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="Images/Index/Nossas-Solucoes/imagem3.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="Images/Index/Nossas-Solucoes/imagem4.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="Images/Index/Nossas-Solucoes/imagem5.png"> 
+                        </div>
                     </div>
-                    <div class="box">
-                        <img src="Images/Index/Nossas-Solucoes/imagem2.png">
-                    </div>
-                    <div class="box">
-                        <img src="Images/Index/Nossas-Solucoes/imagem3.png">
-                    </div>
-                    <div class="box">
-                        <img src="Images/Index/Nossas-Solucoes/imagem4.png">
-                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
                 </div>
                 <div class="texto">
                     <p>
@@ -130,71 +179,72 @@
             </div>
             <div class="info">
                 <div class="painel">
+                    <h1>Produto 1</h1>
                     <img src="Images/Index/Cores/Amarelo-Arabesco.png">
                     <img src="Images/Index/Cores/base.png">
                 </div>
                 <div class="opcoes-cores">
-                    <div id="Amarelo-Arabesco">
+                    <div id="Amarelo-Arabesco" product-name="Amarelo Arabesco">
                         <img src="Images/Index/Cores/Amarelo-Arabesco.png">
                     </div>
-                    <div id="Amarelo-Capri">
+                    <div id="Amarelo-Capri" product-name="Amarelo Capri">
                         <img src="Images/Index/Cores/Amarelo-Capri.png">
                     </div>
-                    <div id="Amarelo-Icarai">
+                    <div id="Amarelo-Icarai" product-name="Amarelo Icarai">
                         <img src="Images/Index/Cores/Amarelo-Icarai.png">
                     </div>
-                    <div id="Amarelo-Maracuja">
+                    <div id="Amarelo-Maracuja" product-name="Amarelo Maracuja">
                         <img src="Images/Index/Cores/Amarelo-Maracuja.png">
                     </div>
-                    <div id="Amarelo-Ornamental">
+                    <div id="Amarelo-Ornamental" product-name="Amarelo Ornamental">
                         <img src="Images/Index/Cores/Amarelo-Ornamental.png">
                     </div>
-                    <div id="Amarelo-St-Cecilia">
+                    <div id="Amarelo-St-Cecilia" product-name="Amarelo St Cecilia">
                         <img src="Images/Index/Cores/Amarelo-St-Cecilia.png">
                     </div>
-                    <div id="Branco-Dallas">
+                    <div id="Branco-Dallas" product-name="Branco Dallas">
                         <img src="Images/Index/Cores/Branco-Dallas.png">
                     </div>
-                    <div id="Branco-Fortaleza">
+                    <div id="Branco-Fortaleza" product-name="Branco Fortaleza">
                         <img src="Images/Index/Cores/Branco-Fortaleza.png">
                     </div>
-                    <div id="Branco-Itaunas">
+                    <div id="Branco-Itaunas" product-name="Branco Itaunas">
                         <img src="Images/Index/Cores/Branco-Itaunas.png">
                     </div>
-                    <div id="Branco-Kashmir">
+                    <div id="Branco-Kashmir" product-name="Branco Kashmir">
                         <img src="Images/Index/Cores/Branco-Kashmir.png">
                     </div>
-                    <div id="Branco-Siena">
+                    <div id="Branco-Siena" product-name="Branco Siena">
                         <img src="Images/Index/Cores/Branco-Siena.png">
                     </div>
-                    <div id="Cinza-Andorinha">
+                    <div id="Cinza-Andorinha" product-name="Cinza Andorinha">
                         <img src="Images/Index/Cores/Cinza-Andorinha.png">
                     </div>
-                    <div id="Cinza-Castelo">
+                    <div id="Cinza-Castelo" product-name="Cinza Castelo">
                         <img src="Images/Index/Cores/Cinza-Castelo.png">
                     </div>
-                    <div id="Cinza-Corumba">
+                    <div id="Cinza-Corumba" product-name="Cinza Corumba">
                         <img src="Images/Index/Cores/Cinza-Corumba.png">
                     </div>
-                    <div id="Ocre">
+                    <div id="Ocre" product-name="Ocre">
                         <img src="Images/Index/Cores/Ocre.png">
                     </div>
-                    <div id="Preto-Brasil">
+                    <div id="Preto-Brasil" product-name="Preto Brasil">
                         <img src="Images/Index/Cores/Preto-Brasil.png">
                     </div>
-                    <div id="Preto-Indiano">
+                    <div id="Preto-Indiano" product-name="Preto Indiano">
                         <img src="Images/Index/Cores/Preto-Indiano.png">
                     </div>
-                    <div id="Preto-Sao-Gabriel">
+                    <div id="Preto-Sao-Gabriel" product-name="Preto Sao Gabriel">
                         <img src="Images/Index/Cores/Preto-Sao-Gabriel.png">
                     </div>
-                    <div id="Verde-Perola">
+                    <div id="Verde-Perola" product-name="Verde Perola">
                         <img src="Images/Index/Cores/Verde-Perola.png">
                     </div>
-                    <div id="Verde-Ubatuba">
+                    <div id="Verde-Ubatuba" product-name="Verde Ubatuba">
                         <img src="Images/Index/Cores/Verde-Ubatuba.png">
                     </div>
-                    <div id="Via-Lactea">
+                    <div id="Via-Lactea" product-name="Via Lactea">
                         <img src="Images/Index/Cores/Via-Lactea.png">
                     </div>
                 </div>
