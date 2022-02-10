@@ -81,15 +81,15 @@
                     <!--<img class ="active" src="Images/Index/Sobre-Nos/banner1.png" id="banner1">
 <img src="Images/Index/Sobre-Nos/banner2.png" id="banner2">
 <img src="Images/Index/Sobre-Nos/banner3.png" id="banner3">-->
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="1000" data-pause="false">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="false">
                         <div class="carousel-inner">
-                            <div class="carousel-item active" style="background-image: url('Images/Index/Sobre-Nos/banner1.png');">
+                            <div class="carousel-item active" style="background-image: url('Images/Index/Sobre-Nos/Banners/banner1.png');">
                                 <!--<img class="d-block w-100" src="Images/Index/Sobre-Nos/banner1.png" alt="First slide">-->
                             </div>
-                            <div class="carousel-item" style="background-image: url('Images/Index/Sobre-Nos/banner2.png');">
+                            <div class="carousel-item" style="background-image: url('Images/Index/Sobre-Nos/Banners/banner2.png');">
                                 <!--<img class="d-block w-100" src="Images/Index/Sobre-Nos/banner2.png" alt="Second slide">-->
                             </div>
-                            <div class="carousel-item" style="background-image: url('Images/Index/Sobre-Nos/banner3.png');">
+                            <div class="carousel-item" style="background-image: url('Images/Index/Sobre-Nos/Banners/banner3.png');">
                                 <!--<img class="d-block w-100" src="Images/Index/Sobre-Nos/banner3.png" alt="Third slide">-->
                             </div>
                         </div>
@@ -159,10 +159,27 @@
                         <div class="swiper-slide">
                             <img src="Images/Index/Nossas-Solucoes/imagem5.png"> 
                         </div>
+                        
+                        <!--o numero de imagens precisam ser pares, por isso estão sendo repetidas-->
+                        <div class="swiper-slide">
+                            <img src="Images/Index/Nossas-Solucoes/imagem1.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="Images/Index/Nossas-Solucoes/imagem2.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="Images/Index/Nossas-Solucoes/imagem3.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="Images/Index/Nossas-Solucoes/imagem4.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="Images/Index/Nossas-Solucoes/imagem5.png"> 
+                        </div>
                     </div>
                     <div class="swiper-button-next"></div>
                     <div class="swiper-button-prev"></div>
-                    <div class="swiper-pagination"></div>
+                    <!--<div class="swiper-pagination"></div>-->
                 </div>
                 <div class="texto">
                     <p>
@@ -179,7 +196,7 @@
             </div>
             <div class="info">
                 <div class="painel">
-                    <h1>Produto 1</h1>
+                    <h1>Amarelo Arabesco</h1>
                     <img src="Images/Index/Cores/Amarelo-Arabesco.png">
                     <img src="Images/Index/Cores/base.png">
                 </div>

@@ -176,12 +176,12 @@ margin: 0;
 
 .carousel{
     height: 100%;
-    background-color: palegreen;
+    /background-color: palegreen;
 }
 
 .carousel .carousel-inner{
     height: 100%;
-    background-color: purple;
+    /background-color: purple;
 }
 
 .carousel .carousel-inner .carousel-item{
@@ -423,6 +423,9 @@ margin: 0;
     width: 100%;
     text-align: center;
     text-transform: uppercase;
+    margin: 10px 0 20px 0;
+    font-family: montSemiBold;
+    color: var(--primary-color);
 }
 
 .cores .info .painel img{
