@@ -423,7 +423,7 @@ margin: 0;
     width: 100%;
     text-align: center;
     text-transform: uppercase;
-    margin: 10px 0 20px 0;
+    margin: 0px 0 20px 0;
     font-family: montSemiBold;
     color: var(--primary-color);
 }
@@ -440,6 +440,7 @@ margin: 0;
     margin: 0 auto;
     justify-content: center;
     //background-color: pink;
+    margin-bottom: 30px;
 }
 
 .cores .info .opcoes-cores div{

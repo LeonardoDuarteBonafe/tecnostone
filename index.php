@@ -159,7 +159,7 @@
                         <div class="swiper-slide">
                             <img src="Images/Index/Nossas-Solucoes/imagem5.png"> 
                         </div>
-                        
+
                         <!--o numero de imagens precisam ser pares, por isso estão sendo repetidas-->
                         <div class="swiper-slide">
                             <img src="Images/Index/Nossas-Solucoes/imagem1.png">
@@ -204,6 +204,9 @@
                     <div id="Amarelo-Arabesco" product-name="Amarelo Arabesco">
                         <img src="Images/Index/Cores/Amarelo-Arabesco.png">
                     </div>
+                    <div id="Amarelo-Fiorito" product-name="Amarelo Fiorito">
+                        <img src="Images/Index/Cores/Amarelo-Fiorito.png">
+                    </div>
                     <div id="Amarelo-Capri" product-name="Amarelo Capri">
                         <img src="Images/Index/Cores/Amarelo-Capri.png">
                     </div>
@@ -219,6 +222,15 @@
                     <div id="Amarelo-St-Cecilia" product-name="Amarelo St Cecilia">
                         <img src="Images/Index/Cores/Amarelo-St-Cecilia.png">
                     </div>
+                    <div id="Bege-Antartic" product-name="Bege Antartic">
+                        <img src="Images/Index/Cores/Bege-Antartic.png">
+                    </div>
+                    <div id="Bege-Bahia" product-name="Bege Bahia">
+                        <img src="Images/Index/Cores/Bege-Bahia.png">
+                    </div>
+                    <div id="Branco-Aquamarine" product-name="Branco Aquamarine">
+                        <img src="Images/Index/Cores/Branco-Aquamarine.png">
+                    </div>
                     <div id="Branco-Dallas" product-name="Branco Dallas">
                         <img src="Images/Index/Cores/Branco-Dallas.png">
                     </div>
@@ -231,8 +243,14 @@
                     <div id="Branco-Kashmir" product-name="Branco Kashmir">
                         <img src="Images/Index/Cores/Branco-Kashmir.png">
                     </div>
+                    <div id="Branco-Marfin" product-name="Branco Marfin">
+                        <img src="Images/Index/Cores/Branco-Marfin.png">
+                    </div>
                     <div id="Branco-Siena" product-name="Branco Siena">
                         <img src="Images/Index/Cores/Branco-Siena.png">
+                    </div>
+                    <div id="Cafe-Imperial" product-name="Cafe Imperial">
+                        <img src="Images/Index/Cores/Cafe-Imperial.png">
                     </div>
                     <div id="Cinza-Andorinha" product-name="Cinza Andorinha">
                         <img src="Images/Index/Cores/Cinza-Andorinha.png">
@@ -243,8 +261,14 @@
                     <div id="Cinza-Corumba" product-name="Cinza Corumba">
                         <img src="Images/Index/Cores/Cinza-Corumba.png">
                     </div>
+                    <div id="Cinza-Nobre" product-name="Cinza Nobre">
+                        <img src="Images/Index/Cores/Cinza-Nobre.png">
+                    </div>
                     <div id="Ocre" product-name="Ocre">
                         <img src="Images/Index/Cores/Ocre.png">
+                    </div>
+                    <div id="Preto-Blue-Night" product-name="Preto Blue Night">
+                        <img src="Images/Index/Cores/Preto-Blue-Night.png">
                     </div>
                     <div id="Preto-Brasil" product-name="Preto Brasil">
                         <img src="Images/Index/Cores/Preto-Brasil.png">
@@ -263,6 +287,9 @@
                     </div>
                     <div id="Via-Lactea" product-name="Via Lactea">
                         <img src="Images/Index/Cores/Via-Lactea.png">
+                    </div>
+                    <div id="Vermelho-Brasilia" product-name="Vermelho Brasilia">
+                        <img src="Images/Index/Cores/Vermelho-Brasilia.png">
                     </div>
                 </div>
             </div>
