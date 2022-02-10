@@ -358,8 +358,10 @@
             <div class="conteudo">
                 <div class="imagens">
                     <div class="box">
-                        <a href="Images/Index/Obras-Realizadas/Galeria1/imagem2.png" data-lightbox="galeria1" data-title="">
+                        <a href="Images/Index/Obras-Realizadas/Galeria1/imagem1.png" data-lightbox="galeria1" data-title="">
                             <img src="Images/Index/Obras-Realizadas/Galeria1/imagem1.png">
+                        </a>
+                        <a href="Images/Index/Obras-Realizadas/Galeria1/imagem2.png" data-lightbox="galeria1" data-title="">
                         </a>
                         <a href="Images/Index/Obras-Realizadas/Galeria1/imagem3.png" data-lightbox="galeria1" data-title="">
                         </a>
@@ -367,36 +369,58 @@
                         </a>
                     </div>
                     <div class="box">
-                        <a href="Images/Index/Obras-Realizadas/Galeria2/imagem2.png" data-lightbox="galeria2" data-title="">
+                        <a href="Images/Index/Obras-Realizadas/Galeria2/imagem1.png" data-lightbox="galeria2" data-title="">
                             <img src="Images/Index/Obras-Realizadas/Galeria2/imagem1.png">
                         </a>
+                        <a href="Images/Index/Obras-Realizadas/Galeria2/imagem2.png" data-lightbox="galeria2" data-title="">
+                        </a> 
                         <a href="Images/Index/Obras-Realizadas/Galeria2/imagem3.png" data-lightbox="galeria2" data-title="">
                         </a> 
                         <a href="Images/Index/Obras-Realizadas/Galeria2/imagem4.png" data-lightbox="galeria2" data-title="">
                         </a> 
                         <a href="Images/Index/Obras-Realizadas/Galeria2/imagem5.png" data-lightbox="galeria2" data-title="">
                         </a> 
+                        <a href="Images/Index/Obras-Realizadas/Galeria2/imagem6.png" data-lightbox="galeria2" data-title="">
+                        </a> 
+                        <a href="Images/Index/Obras-Realizadas/Galeria2/imagem7.png" data-lightbox="galeria2" data-title="">
+                        </a> 
+                        <a href="Images/Index/Obras-Realizadas/Galeria2/imagem8.png" data-lightbox="galeria2" data-title="">
+                        </a> 
+                        <a href="Images/Index/Obras-Realizadas/Galeria2/imagem9.png" data-lightbox="galeria2" data-title="">
+                        </a> 
                     </div>
                     <div class="box">
-                        <a href="Images/Index/Obras-Realizadas/Galeria3/imagem2.png" data-lightbox="galeria3" data-title="">
+                        <a href="Images/Index/Obras-Realizadas/Galeria3/imagem1.png" data-lightbox="galeria3" data-title="">
                             <img src="Images/Index/Obras-Realizadas/Galeria3/imagem1.png">
                         </a>
+                        <a href="Images/Index/Obras-Realizadas/Galeria3/imagem2.png" data-lightbox="galeria3" data-title="">
+                        </a> 
                         <a href="Images/Index/Obras-Realizadas/Galeria3/imagem3.png" data-lightbox="galeria3" data-title="">
                         </a> 
                         <a href="Images/Index/Obras-Realizadas/Galeria3/imagem4.png" data-lightbox="galeria3" data-title="">
                         </a> 
                         <a href="Images/Index/Obras-Realizadas/Galeria3/imagem5.png" data-lightbox="galeria3" data-title="">
                         </a> 
+                        <a href="Images/Index/Obras-Realizadas/Galeria3/imagem6.png" data-lightbox="galeria3" data-title="">
+                        </a> 
+                        <a href="Images/Index/Obras-Realizadas/Galeria3/imagem7.png" data-lightbox="galeria3" data-title="">
+                        </a>
+                        <a href="Images/Index/Obras-Realizadas/Galeria3/imagem8.png" data-lightbox="galeria3" data-title="">
+                        </a>
+                        <a href="Images/Index/Obras-Realizadas/Galeria3/imagem9.png" data-lightbox="galeria3" data-title="">
+                        </a>
+                        <a href="Images/Index/Obras-Realizadas/Galeria3/imagem10.png" data-lightbox="galeria3" data-title="">
+                        </a>
                     </div>
                     <div class="box">
-                        <a href="Images/Index/Obras-Realizadas/Galeria4/imagem2.png" data-lightbox="galeria4" data-title="">
+                        <a href="Images/Index/Obras-Realizadas/Galeria4/imagem1.png" data-lightbox="galeria4" data-title="">
                             <img src="Images/Index/Obras-Realizadas/Galeria4/imagem1.png">
                         </a>
+                        <a href="Images/Index/Obras-Realizadas/Galeria4/imagem2.png" data-lightbox="galeria4" data-title="">
+                        </a> 
                         <a href="Images/Index/Obras-Realizadas/Galeria4/imagem3.png" data-lightbox="galeria4" data-title="">
                         </a> 
                         <a href="Images/Index/Obras-Realizadas/Galeria4/imagem4.png" data-lightbox="galeria4" data-title="">
-                        </a> 
-                        <a href="Images/Index/Obras-Realizadas/Galeria4/imagem5.png" data-lightbox="galeria4" data-title="">
                         </a> 
                     </div> 
                 </div>
