@@ -207,9 +207,9 @@
                     <div id="Amarelo-Fiorito" product-name="Amarelo Fiorito">
                         <img src="Images/Index/Cores/Amarelo-Fiorito.png">
                     </div>
-                    <div id="Amarelo-Capri" product-name="Amarelo Capri">
+                    <!--<div id="Amarelo-Capri" product-name="Amarelo Capri">
                         <img src="Images/Index/Cores/Amarelo-Capri.png">
-                    </div>
+                    </div>-->
                     <div id="Amarelo-Icarai" product-name="Amarelo Icarai">
                         <img src="Images/Index/Cores/Amarelo-Icarai.png">
                     </div>
@@ -395,18 +395,18 @@
                         </a>
                         <a href="Images/Index/Obras-Realizadas/Galeria3/imagem2.png" data-lightbox="galeria3" data-title="">
                         </a> 
-                        <a href="Images/Index/Obras-Realizadas/Galeria3/imagem3.png" data-lightbox="galeria3" data-title="">
-                        </a> 
+                        <!--<a href="Images/Index/Obras-Realizadas/Galeria3/imagem3.png" data-lightbox="galeria3" data-title="">
+                        </a> -->
                         <a href="Images/Index/Obras-Realizadas/Galeria3/imagem4.png" data-lightbox="galeria3" data-title="">
                         </a> 
                         <a href="Images/Index/Obras-Realizadas/Galeria3/imagem5.png" data-lightbox="galeria3" data-title="">
                         </a> 
-                        <a href="Images/Index/Obras-Realizadas/Galeria3/imagem6.png" data-lightbox="galeria3" data-title="">
-                        </a> 
+                        <!--<a href="Images/Index/Obras-Realizadas/Galeria3/imagem6.png" data-lightbox="galeria3" data-title="">
+                        </a> -->
                         <a href="Images/Index/Obras-Realizadas/Galeria3/imagem7.png" data-lightbox="galeria3" data-title="">
                         </a>
-                        <a href="Images/Index/Obras-Realizadas/Galeria3/imagem8.png" data-lightbox="galeria3" data-title="">
-                        </a>
+                        <!--<a href="Images/Index/Obras-Realizadas/Galeria3/imagem8.png" data-lightbox="galeria3" data-title="">
+                        </a>-->
                         <a href="Images/Index/Obras-Realizadas/Galeria3/imagem9.png" data-lightbox="galeria3" data-title="">
                         </a>
                         <a href="Images/Index/Obras-Realizadas/Galeria3/imagem10.png" data-lightbox="galeria3" data-title="">
