@@ -225,7 +225,7 @@ window.addEventListener("DOMContentLoaded", function () {
         var imagemPainelUrl = "Images/Index/Cores/";
         var corClicada = $(this).attr('id');
 
-        $('.cores .info .painel').children("img").eq(0).attr('src', imagemPainelUrl + corClicada + '.png');
+        $('.cores .info .painel').children("img").eq(0).attr('src', imagemPainelUrl + corClicada + '.webp');
 
         $('.cores .info .painel').children("img").eq(0).addClass('active-material-painel');
         $('.cores .info .painel').children("img").eq(0).on("animationend", function(){

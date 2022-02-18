@@ -32,7 +32,7 @@
         <header>
             <nav>
                 <a class="logo" href="index.php">
-                    <img src="Images/Index/Navbar/logo.png"></a>
+                    <img src="Images/Index/Navbar/logo.webp"></a>
                 <div class="mobile-menu">
                     <div class="line1"></div>
                     <div class="line2"></div>
@@ -51,26 +51,26 @@
             <div class="box conteudo">
                 <!--<h2>Sobre</h2>
 <h1>Nós</h1>-->
-                <img src="Images/Index/Sobre-Nos/sobre-nos.png">
+                <img src="Images/Index/Sobre-Nos/sobre-nos.webp">
                 <p>Atuamos com fornecimento de produtos em Mármores e Granitos com envio facilitado para todo Brasil.</p>
                 <div class="imagens">
                     <div class="image" id="banner1">
-                        <img src="Images/Index/Sobre-Nos/imagem1.png">
+                        <img src="Images/Index/Sobre-Nos/imagem1.webp">
                     </div>
                     <div class="image" id="banner2">
-                        <img src="Images/Index/Sobre-Nos/imagem2.png">
+                        <img src="Images/Index/Sobre-Nos/imagem2.webp">
                     </div>
                     <div class="image" id="banner3">
-                        <img src="Images/Index/Sobre-Nos/imagem3.png">
+                        <img src="Images/Index/Sobre-Nos/imagem3.webp">
                     </div>
                     <div class="image" id="banner4">
-                        <img src="Images/Index/Sobre-Nos/imagem4.png">
+                        <img src="Images/Index/Sobre-Nos/imagem4.webp">
                     </div>
                     <div class="image" id="banner5">
-                        <img src="Images/Index/Sobre-Nos/imagem5.png">
+                        <img src="Images/Index/Sobre-Nos/imagem5.webp">
                     </div>
                     <div class="image" id="banner6">
-                        <img src="Images/Index/Sobre-Nos/imagem6.png">
+                        <img src="Images/Index/Sobre-Nos/imagem6.webp">
                     </div>
                 </div>
             </div>
@@ -78,19 +78,19 @@
                 <div class="bloco-verde"></div>
                 <div class="bloco-azul"></div>
                 <div class="bloco-imagem">
-                    <!--<img class ="active" src="Images/Index/Sobre-Nos/banner1.png" id="banner1">
-<img src="Images/Index/Sobre-Nos/banner2.png" id="banner2">
-<img src="Images/Index/Sobre-Nos/banner3.png" id="banner3">-->
+                    <!--<img class ="active" src="Images/Index/Sobre-Nos/banner1.webp" id="banner1">
+<img src="Images/Index/Sobre-Nos/banner2.webp" id="banner2">
+<img src="Images/Index/Sobre-Nos/banner3.webp" id="banner3">-->
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="false">
                         <div class="carousel-inner">
-                            <div class="carousel-item active" style="background-image: url('Images/Index/Sobre-Nos/Banners/banner1.png');">
-                                <!--<img class="d-block w-100" src="Images/Index/Sobre-Nos/banner1.png" alt="First slide">-->
+                            <div class="carousel-item active" style="background-image: url('Images/Index/Sobre-Nos/banner1.webp');">
+                                <!--<img class="d-block w-100" src="Images/Index/Sobre-Nos/banner1.webp" alt="First slide">-->
                             </div>
-                            <div class="carousel-item" style="background-image: url('Images/Index/Sobre-Nos/Banners/banner2.png');">
-                                <!--<img class="d-block w-100" src="Images/Index/Sobre-Nos/banner2.png" alt="Second slide">-->
+                            <div class="carousel-item" style="background-image: url('Images/Index/Sobre-Nos/banner2.webp');">
+                                <!--<img class="d-block w-100" src="Images/Index/Sobre-Nos/banner2.webp" alt="Second slide">-->
                             </div>
-                            <div class="carousel-item" style="background-image: url('Images/Index/Sobre-Nos/Banners/banner3.png');">
-                                <!--<img class="d-block w-100" src="Images/Index/Sobre-Nos/banner3.png" alt="Third slide">-->
+                            <div class="carousel-item" style="background-image: url('Images/Index/Sobre-Nos/banner3.webp');">
+                                <!--<img class="d-block w-100" src="Images/Index/Sobre-Nos/banner3.webp" alt="Third slide">-->
                             </div>
                         </div>
                     </div>
@@ -101,13 +101,13 @@
         <!--<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="1000" data-pause="false">
 <div class="carousel-inner">
 <div class="carousel-item active">
-<img class="d-block w-100" src="Images/Index/Sobre-Nos/banner1.png" alt="First slide">
+<img class="d-block w-100" src="Images/Index/Sobre-Nos/banner1.webp" alt="First slide">
 </div>
 <div class="carousel-item">
-<img class="d-block w-100" src="Images/Index/Sobre-Nos/banner2.png" alt="Second slide">
+<img class="d-block w-100" src="Images/Index/Sobre-Nos/banner2.webp" alt="Second slide">
 </div>
 <div class="carousel-item">
-<img class="d-block w-100" src="Images/Index/Sobre-Nos/banner3.png" alt="Third slide">
+<img class="d-block w-100" src="Images/Index/Sobre-Nos/banner3.webp" alt="Third slide">
 </div>
 </div>
 </div>-->
@@ -115,66 +115,66 @@
 
         <section class="social-media">
             <div>
-                <img src="Images/Index/Social-Media/logo-instagram.png">
-                <img src="Images/Index/Social-Media/logo-facebook.png">
-                <img class="whatsapp" src="Images/Index/Social-Media/logo-whatsapp.png">
+                <img src="Images/Index/Social-Media/logo-instagram.webp">
+                <img src="Images/Index/Social-Media/logo-facebook.webp">
+                <img class="whatsapp" src="Images/Index/Social-Media/logo-whatsapp.webp">
             </div>
 
         </section>
 
         <section class="nossas-solucoes galeria" id="nossas-solucoes">
             <div class="titulo">
-                <img src="Images/Index/logo-titulo.png">
+                <img src="Images/Index/logo-titulo.webp">
                 <h1>Nossas soluções</h1>
             </div>
             <div class="conteudo">
                 <!--<div class="imagens">
 <div class="box">
-<img src="Images/Index/Nossas-Solucoes/imagem1.png">
+<img src="Images/Index/Nossas-Solucoes/imagem1.webp">
 </div>
 <div class="box">
-<img src="Images/Index/Nossas-Solucoes/imagem2.png">
+<img src="Images/Index/Nossas-Solucoes/imagem2.webp">
 </div>
 <div class="box">
-<img src="Images/Index/Nossas-Solucoes/imagem3.png">
+<img src="Images/Index/Nossas-Solucoes/imagem3.webp">
 </div>
 <div class="box">
-<img src="Images/Index/Nossas-Solucoes/imagem4.png">
+<img src="Images/Index/Nossas-Solucoes/imagem4.webp">
 </div>
 </div>-->
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="Images/Index/Nossas-Solucoes/imagem1.png">
+                            <img src="Images/Index/Nossas-Solucoes/imagem1.webp">
                         </div>
                         <div class="swiper-slide">
-                            <img src="Images/Index/Nossas-Solucoes/imagem2.png">
+                            <img src="Images/Index/Nossas-Solucoes/imagem2.webp">
                         </div>
                         <div class="swiper-slide">
-                            <img src="Images/Index/Nossas-Solucoes/imagem3.png">
+                            <img src="Images/Index/Nossas-Solucoes/imagem3.webp">
                         </div>
                         <div class="swiper-slide">
-                            <img src="Images/Index/Nossas-Solucoes/imagem4.png">
+                            <img src="Images/Index/Nossas-Solucoes/imagem4.webp">
                         </div>
                         <div class="swiper-slide">
-                            <img src="Images/Index/Nossas-Solucoes/imagem5.png"> 
+                            <img src="Images/Index/Nossas-Solucoes/imagem5.webp"> 
                         </div>
 
                         <!--o numero de imagens precisam ser pares, por isso estão sendo repetidas-->
                         <div class="swiper-slide">
-                            <img src="Images/Index/Nossas-Solucoes/imagem1.png">
+                            <img src="Images/Index/Nossas-Solucoes/imagem1.webp">
                         </div>
                         <div class="swiper-slide">
-                            <img src="Images/Index/Nossas-Solucoes/imagem2.png">
+                            <img src="Images/Index/Nossas-Solucoes/imagem2.webp">
                         </div>
                         <div class="swiper-slide">
-                            <img src="Images/Index/Nossas-Solucoes/imagem3.png">
+                            <img src="Images/Index/Nossas-Solucoes/imagem3.webp">
                         </div>
                         <div class="swiper-slide">
-                            <img src="Images/Index/Nossas-Solucoes/imagem4.png">
+                            <img src="Images/Index/Nossas-Solucoes/imagem4.webp">
                         </div>
                         <div class="swiper-slide">
-                            <img src="Images/Index/Nossas-Solucoes/imagem5.png"> 
+                            <img src="Images/Index/Nossas-Solucoes/imagem5.webp"> 
                         </div>
                     </div>
                     <div class="swiper-button-next"></div>
@@ -191,105 +191,105 @@
 
         <section class="cores">
             <div class="titulo">
-                <img src="Images/Index/logo-titulo.png">
+                <img src="Images/Index/logo-titulo.webp">
                 <h1>Cores</h1>
             </div>
             <div class="info">
                 <div class="painel">
                     <h1>Amarelo Arabesco</h1>
-                    <img src="Images/Index/Cores/Amarelo-Arabesco.png">
-                    <img src="Images/Index/Cores/base.png">
+                    <img src="Images/Index/Cores/Amarelo-Arabesco.webp">
+                    <img src="Images/Index/Cores/base.webp">
                 </div>
                 <div class="opcoes-cores">
                     <div id="Amarelo-Arabesco" product-name="Amarelo Arabesco">
-                        <img src="Images/Index/Cores/Amarelo-Arabesco.png">
+                        <img src="Images/Index/Cores/Amarelo-Arabesco.webp">
                     </div>
                     <div id="Amarelo-Fiorito" product-name="Amarelo Fiorito">
-                        <img src="Images/Index/Cores/Amarelo-Fiorito.png">
+                        <img src="Images/Index/Cores/Amarelo-Fiorito.webp">
                     </div>
                     <!--<div id="Amarelo-Capri" product-name="Amarelo Capri">
-                        <img src="Images/Index/Cores/Amarelo-Capri.png">
+                        <img src="Images/Index/Cores/Amarelo-Capri.webp">
                     </div>-->
                     <div id="Amarelo-Icarai" product-name="Amarelo Icarai">
-                        <img src="Images/Index/Cores/Amarelo-Icarai.png">
+                        <img src="Images/Index/Cores/Amarelo-Icarai.webp">
                     </div>
                     <div id="Amarelo-Maracuja" product-name="Amarelo Maracuja">
-                        <img src="Images/Index/Cores/Amarelo-Maracuja.png">
+                        <img src="Images/Index/Cores/Amarelo-Maracuja.webp">
                     </div>
                     <div id="Amarelo-Ornamental" product-name="Amarelo Ornamental">
-                        <img src="Images/Index/Cores/Amarelo-Ornamental.png">
+                        <img src="Images/Index/Cores/Amarelo-Ornamental.webp">
                     </div>
                     <div id="Amarelo-St-Cecilia" product-name="Amarelo St Cecilia">
-                        <img src="Images/Index/Cores/Amarelo-St-Cecilia.png">
+                        <img src="Images/Index/Cores/Amarelo-St-Cecilia.webp">
                     </div>
                     <div id="Bege-Antartic" product-name="Bege Antartic">
-                        <img src="Images/Index/Cores/Bege-Antartic.png">
+                        <img src="Images/Index/Cores/Bege-Antartic.webp">
                     </div>
                     <div id="Bege-Bahia" product-name="Bege Bahia">
-                        <img src="Images/Index/Cores/Bege-Bahia.png">
+                        <img src="Images/Index/Cores/Bege-Bahia.webp">
                     </div>
                     <div id="Branco-Aquamarine" product-name="Branco Aquamarine">
-                        <img src="Images/Index/Cores/Branco-Aquamarine.png">
+                        <img src="Images/Index/Cores/Branco-Aquamarine.webp">
                     </div>
                     <div id="Branco-Dallas" product-name="Branco Dallas">
-                        <img src="Images/Index/Cores/Branco-Dallas.png">
+                        <img src="Images/Index/Cores/Branco-Dallas.webp">
                     </div>
                     <div id="Branco-Fortaleza" product-name="Branco Fortaleza">
-                        <img src="Images/Index/Cores/Branco-Fortaleza.png">
+                        <img src="Images/Index/Cores/Branco-Fortaleza.webp">
                     </div>
                     <div id="Branco-Itaunas" product-name="Branco Itaunas">
-                        <img src="Images/Index/Cores/Branco-Itaunas.png">
+                        <img src="Images/Index/Cores/Branco-Itaunas.webp">
                     </div>
                     <div id="Branco-Kashmir" product-name="Branco Kashmir">
-                        <img src="Images/Index/Cores/Branco-Kashmir.png">
+                        <img src="Images/Index/Cores/Branco-Kashmir.webp">
                     </div>
                     <div id="Branco-Marfin" product-name="Branco Marfin">
-                        <img src="Images/Index/Cores/Branco-Marfin.png">
+                        <img src="Images/Index/Cores/Branco-Marfin.webp">
                     </div>
                     <div id="Branco-Siena" product-name="Branco Siena">
-                        <img src="Images/Index/Cores/Branco-Siena.png">
+                        <img src="Images/Index/Cores/Branco-Siena.webp">
                     </div>
                     <div id="Cafe-Imperial" product-name="Cafe Imperial">
-                        <img src="Images/Index/Cores/Cafe-Imperial.png">
+                        <img src="Images/Index/Cores/Cafe-Imperial.webp">
                     </div>
                     <div id="Cinza-Andorinha" product-name="Cinza Andorinha">
-                        <img src="Images/Index/Cores/Cinza-Andorinha.png">
+                        <img src="Images/Index/Cores/Cinza-Andorinha.webp">
                     </div>
                     <div id="Cinza-Castelo" product-name="Cinza Castelo">
-                        <img src="Images/Index/Cores/Cinza-Castelo.png">
+                        <img src="Images/Index/Cores/Cinza-Castelo.webp">
                     </div>
                     <div id="Cinza-Corumba" product-name="Cinza Corumba">
-                        <img src="Images/Index/Cores/Cinza-Corumba.png">
+                        <img src="Images/Index/Cores/Cinza-Corumba.webp">
                     </div>
                     <div id="Cinza-Nobre" product-name="Cinza Nobre">
-                        <img src="Images/Index/Cores/Cinza-Nobre.png">
+                        <img src="Images/Index/Cores/Cinza-Nobre.webp">
                     </div>
                     <div id="Ocre" product-name="Ocre">
-                        <img src="Images/Index/Cores/Ocre.png">
+                        <img src="Images/Index/Cores/Ocre.webp">
                     </div>
                     <div id="Preto-Blue-Night" product-name="Preto Blue Night">
-                        <img src="Images/Index/Cores/Preto-Blue-Night.png">
+                        <img src="Images/Index/Cores/Preto-Blue-Night.webp">
                     </div>
                     <div id="Preto-Brasil" product-name="Preto Brasil">
-                        <img src="Images/Index/Cores/Preto-Brasil.png">
+                        <img src="Images/Index/Cores/Preto-Brasil.webp">
                     </div>
                     <div id="Preto-Indiano" product-name="Preto Indiano">
-                        <img src="Images/Index/Cores/Preto-Indiano.png">
+                        <img src="Images/Index/Cores/Preto-Indiano.webp">
                     </div>
                     <div id="Preto-Sao-Gabriel" product-name="Preto Sao Gabriel">
-                        <img src="Images/Index/Cores/Preto-Sao-Gabriel.png">
+                        <img src="Images/Index/Cores/Preto-Sao-Gabriel.webp">
                     </div>
                     <div id="Verde-Perola" product-name="Verde Perola">
-                        <img src="Images/Index/Cores/Verde-Perola.png">
+                        <img src="Images/Index/Cores/Verde-Perola.webp">
                     </div>
                     <div id="Verde-Ubatuba" product-name="Verde Ubatuba">
-                        <img src="Images/Index/Cores/Verde-Ubatuba.png">
+                        <img src="Images/Index/Cores/Verde-Ubatuba.webp">
                     </div>
                     <div id="Via-Lactea" product-name="Via Lactea">
-                        <img src="Images/Index/Cores/Via-Lactea.png">
+                        <img src="Images/Index/Cores/Via-Lactea.webp">
                     </div>
                     <div id="Vermelho-Brasilia" product-name="Vermelho Brasilia">
-                        <img src="Images/Index/Cores/Vermelho-Brasilia.png">
+                        <img src="Images/Index/Cores/Vermelho-Brasilia.webp">
                     </div>
                 </div>
             </div>
@@ -297,53 +297,53 @@
 
         <section class="acabamentos galeria" id="acabamentos">
             <div class="titulo">
-                <img src="Images/Index/logo-titulo.png">
+                <img src="Images/Index/logo-titulo.webp">
                 <h1>Acabamentos</h1>
             </div>
             <div class="conteudo">
                 <div class="imagens">
                     <div class="box">
                         <div>
-                            <a href="Images/Index/Acabamentos/imagem1.png" data-lightbox="galeriaAcabamentos1" data-title="ESCOVADO">
-                                <img src="Images/Index/Acabamentos/imagem1.png">
+                            <a href="Images/Index/Acabamentos/imagem1.webp" data-lightbox="galeriaAcabamentos1" data-title="ESCOVADO">
+                                <img src="Images/Index/Acabamentos/imagem1.webp">
                             </a>
                         </div>
                         <p>escovado</p>
                     </div>
                     <div class="box">
                         <div>
-                            <a href="Images/Index/Acabamentos/imagem2.png" data-lightbox="galeriaAcabamentos2" data-title="FLAMEADO">
-                                <img src="Images/Index/Acabamentos/imagem2.png">
+                            <a href="Images/Index/Acabamentos/imagem2.webp" data-lightbox="galeriaAcabamentos2" data-title="FLAMEADO">
+                                <img src="Images/Index/Acabamentos/imagem2.webp">
                             </a>
                         </div>
                         <p>flameado</p>
                     </div>
                     <div class="box">
                         <div>
-                            <a href="Images/Index/Acabamentos/imagem3.png" data-lightbox="galeriaAcabamentos3" data-title="JATEADO">
-                                <img src="Images/Index/Acabamentos/imagem3.png">
+                            <a href="Images/Index/Acabamentos/imagem3.webp" data-lightbox="galeriaAcabamentos3" data-title="JATEADO">
+                                <img src="Images/Index/Acabamentos/imagem3.webp">
                             </a>
                         </div>
                         <p>jateado</p>
                     </div>
                     <div class="box">
                         <div>
-                            <a href="Images/Index/Acabamentos/imagem4.png" data-lightbox="galeriaAcabamentos4" data-title="POLIDO">
-                                <img src="Images/Index/Acabamentos/imagem4.png">
+                            <a href="Images/Index/Acabamentos/imagem4.webp" data-lightbox="galeriaAcabamentos4" data-title="POLIDO">
+                                <img src="Images/Index/Acabamentos/imagem4.webp">
                             </a>
                         </div>
                         <p>polido</p>
                     </div>
                     <!--<div>
-<img src="Images/Index/imagem1.png">
+<img src="Images/Index/imagem1.webp">
 <p>flameado</p>
 </div>
 <div>
-<img src="Images/Index/imagem1.png">
+<img src="Images/Index/imagem1.webp">
 <p>jateado</p>
 </div>
 <div>
-<img src="Images/Index/imagem1.png">
+<img src="Images/Index/imagem1.webp">
 <p>polido</p>
 </div> -->
                 </div>
@@ -352,75 +352,75 @@
 
         <section class="obras-realizadas galeria" id="obras-realizadas">
             <div class="titulo">
-                <img src="Images/Index/logo-titulo.png">
+                <img src="Images/Index/logo-titulo.webp">
                 <h1>Obras realizadas</h1>
             </div>
             <div class="conteudo">
                 <div class="imagens">
                     <div class="box">
-                        <a href="Images/Index/Obras-Realizadas/Galeria1/imagem1.png" data-lightbox="galeria1" data-title="">
-                            <img src="Images/Index/Obras-Realizadas/Galeria1/imagem1.png">
+                        <a href="Images/Index/Obras-Realizadas/Galeria1/imagem1.webp" data-lightbox="galeria1" data-title="">
+                            <img src="Images/Index/Obras-Realizadas/Galeria1/imagem1.webp">
                         </a>
-                        <a href="Images/Index/Obras-Realizadas/Galeria1/imagem2.png" data-lightbox="galeria1" data-title="">
+                        <a href="Images/Index/Obras-Realizadas/Galeria1/imagem2.webp" data-lightbox="galeria1" data-title="">
                         </a>
-                        <a href="Images/Index/Obras-Realizadas/Galeria1/imagem3.png" data-lightbox="galeria1" data-title="">
+                        <a href="Images/Index/Obras-Realizadas/Galeria1/imagem3.webp" data-lightbox="galeria1" data-title="">
                         </a>
-                        <a href="Images/Index/Obras-Realizadas/Galeria1/imagem4.png" data-lightbox="galeria1" data-title="">
+                        <a href="Images/Index/Obras-Realizadas/Galeria1/imagem4.webp" data-lightbox="galeria1" data-title="">
                         </a>
                     </div>
                     <div class="box">
-                        <a href="Images/Index/Obras-Realizadas/Galeria2/imagem1.png" data-lightbox="galeria2" data-title="">
-                            <img src="Images/Index/Obras-Realizadas/Galeria2/imagem1.png">
+                        <a href="Images/Index/Obras-Realizadas/Galeria2/imagem1.webp" data-lightbox="galeria2" data-title="">
+                            <img src="Images/Index/Obras-Realizadas/Galeria2/imagem1.webp">
                         </a>
-                        <a href="Images/Index/Obras-Realizadas/Galeria2/imagem2.png" data-lightbox="galeria2" data-title="">
+                        <a href="Images/Index/Obras-Realizadas/Galeria2/imagem2.webp" data-lightbox="galeria2" data-title="">
                         </a> 
-                        <a href="Images/Index/Obras-Realizadas/Galeria2/imagem3.png" data-lightbox="galeria2" data-title="">
+                        <a href="Images/Index/Obras-Realizadas/Galeria2/imagem3.webp" data-lightbox="galeria2" data-title="">
                         </a> 
-                        <a href="Images/Index/Obras-Realizadas/Galeria2/imagem4.png" data-lightbox="galeria2" data-title="">
+                        <a href="Images/Index/Obras-Realizadas/Galeria2/imagem4.webp" data-lightbox="galeria2" data-title="">
                         </a> 
-                        <a href="Images/Index/Obras-Realizadas/Galeria2/imagem5.png" data-lightbox="galeria2" data-title="">
+                        <a href="Images/Index/Obras-Realizadas/Galeria2/imagem5.webp" data-lightbox="galeria2" data-title="">
                         </a> 
-                        <a href="Images/Index/Obras-Realizadas/Galeria2/imagem6.png" data-lightbox="galeria2" data-title="">
+                        <a href="Images/Index/Obras-Realizadas/Galeria2/imagem6.webp" data-lightbox="galeria2" data-title="">
                         </a> 
-                        <a href="Images/Index/Obras-Realizadas/Galeria2/imagem7.png" data-lightbox="galeria2" data-title="">
+                        <a href="Images/Index/Obras-Realizadas/Galeria2/imagem7.webp" data-lightbox="galeria2" data-title="">
                         </a> 
-                        <a href="Images/Index/Obras-Realizadas/Galeria2/imagem8.png" data-lightbox="galeria2" data-title="">
+                        <a href="Images/Index/Obras-Realizadas/Galeria2/imagem8.webp" data-lightbox="galeria2" data-title="">
                         </a> 
-                        <a href="Images/Index/Obras-Realizadas/Galeria2/imagem9.png" data-lightbox="galeria2" data-title="">
+                        <a href="Images/Index/Obras-Realizadas/Galeria2/imagem9.webp" data-lightbox="galeria2" data-title="">
                         </a> 
                     </div>
                     <div class="box">
-                        <a href="Images/Index/Obras-Realizadas/Galeria3/imagem1.png" data-lightbox="galeria3" data-title="">
-                            <img src="Images/Index/Obras-Realizadas/Galeria3/imagem1.png">
+                        <a href="Images/Index/Obras-Realizadas/Galeria3/imagem1.webp" data-lightbox="galeria3" data-title="">
+                            <img src="Images/Index/Obras-Realizadas/Galeria3/imagem1.webp">
                         </a>
-                        <a href="Images/Index/Obras-Realizadas/Galeria3/imagem2.png" data-lightbox="galeria3" data-title="">
+                        <a href="Images/Index/Obras-Realizadas/Galeria3/imagem2.webp" data-lightbox="galeria3" data-title="">
                         </a> 
-                        <!--<a href="Images/Index/Obras-Realizadas/Galeria3/imagem3.png" data-lightbox="galeria3" data-title="">
+                        <!--<a href="Images/Index/Obras-Realizadas/Galeria3/imagem3.webp" data-lightbox="galeria3" data-title="">
                         </a> -->
-                        <a href="Images/Index/Obras-Realizadas/Galeria3/imagem4.png" data-lightbox="galeria3" data-title="">
+                        <a href="Images/Index/Obras-Realizadas/Galeria3/imagem4.webp" data-lightbox="galeria3" data-title="">
                         </a> 
-                        <a href="Images/Index/Obras-Realizadas/Galeria3/imagem5.png" data-lightbox="galeria3" data-title="">
+                        <a href="Images/Index/Obras-Realizadas/Galeria3/imagem5.webp" data-lightbox="galeria3" data-title="">
                         </a> 
-                        <!--<a href="Images/Index/Obras-Realizadas/Galeria3/imagem6.png" data-lightbox="galeria3" data-title="">
+                        <!--<a href="Images/Index/Obras-Realizadas/Galeria3/imagem6.webp" data-lightbox="galeria3" data-title="">
                         </a> -->
-                        <a href="Images/Index/Obras-Realizadas/Galeria3/imagem7.png" data-lightbox="galeria3" data-title="">
+                        <a href="Images/Index/Obras-Realizadas/Galeria3/imagem7.webp" data-lightbox="galeria3" data-title="">
                         </a>
-                        <!--<a href="Images/Index/Obras-Realizadas/Galeria3/imagem8.png" data-lightbox="galeria3" data-title="">
+                        <!--<a href="Images/Index/Obras-Realizadas/Galeria3/imagem8.webp" data-lightbox="galeria3" data-title="">
                         </a>-->
-                        <a href="Images/Index/Obras-Realizadas/Galeria3/imagem9.png" data-lightbox="galeria3" data-title="">
+                        <a href="Images/Index/Obras-Realizadas/Galeria3/imagem9.webp" data-lightbox="galeria3" data-title="">
                         </a>
-                        <a href="Images/Index/Obras-Realizadas/Galeria3/imagem10.png" data-lightbox="galeria3" data-title="">
+                        <a href="Images/Index/Obras-Realizadas/Galeria3/imagem10.webp" data-lightbox="galeria3" data-title="">
                         </a>
                     </div>
                     <div class="box">
-                        <a href="Images/Index/Obras-Realizadas/Galeria4/imagem1.png" data-lightbox="galeria4" data-title="">
-                            <img src="Images/Index/Obras-Realizadas/Galeria4/imagem1.png">
+                        <a href="Images/Index/Obras-Realizadas/Galeria4/imagem1.webp" data-lightbox="galeria4" data-title="">
+                            <img src="Images/Index/Obras-Realizadas/Galeria4/imagem1.webp">
                         </a>
-                        <a href="Images/Index/Obras-Realizadas/Galeria4/imagem2.png" data-lightbox="galeria4" data-title="">
+                        <a href="Images/Index/Obras-Realizadas/Galeria4/imagem2.webp" data-lightbox="galeria4" data-title="">
                         </a> 
-                        <a href="Images/Index/Obras-Realizadas/Galeria4/imagem3.png" data-lightbox="galeria4" data-title="">
+                        <a href="Images/Index/Obras-Realizadas/Galeria4/imagem3.webp" data-lightbox="galeria4" data-title="">
                         </a> 
-                        <a href="Images/Index/Obras-Realizadas/Galeria4/imagem4.png" data-lightbox="galeria4" data-title="">
+                        <a href="Images/Index/Obras-Realizadas/Galeria4/imagem4.webp" data-lightbox="galeria4" data-title="">
                         </a> 
                     </div> 
                 </div>
@@ -479,13 +479,13 @@
                 </div>
                 <div class="info">
                     <section>
-                        <img src="Images/Index/Form/email.png">
+                        <img src="Images/Index/Form/email.webp">
                         <p>
                             thiago@tecnostone.com.br 
                         </p>
                     </section>
                     <section>
-                        <img src="Images/Index/Form/telefone.png">
+                        <img src="Images/Index/Form/telefone.webp">
                         <p>
                             +55 28 99885-5718
                         </p>
@@ -528,7 +528,7 @@ CONTATO
         </section>
 
         <footer>
-            <img src="Images/Index/logo-footer.png">
+            <img src="Images/Index/logo-footer.webp">
         </footer>
     </body>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
