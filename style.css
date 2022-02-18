@@ -49,7 +49,6 @@ p{
 }
 
 header{
-    //position: fixed;
     z-index: 10;
     width: 100%;
     max-width: 1366px;
@@ -76,7 +75,6 @@ header nav{
     padding: 0 0px 0 50px;
     align-items: center;
     align-content: flex-start !important;
-    /background-color: greenyellow !Important;
     height: 150px;
 }
 
@@ -126,7 +124,6 @@ header nav .mobile-menu div{
 
 .sobre-nos .box.conteudo{
     width: 40%;
-    /background-color: aquamarine;
     display: flex;
     align-content: center;
     flex-wrap: wrap;
@@ -136,18 +133,6 @@ header nav .mobile-menu div{
 .sobre-nos .box.conteudo img{
     width: 100%;
 }
-
-/*.sobre-nos .box.conteudo h2{
-width: 100%;
-background-color: blueviolet;
-margin: 0;
-}
-
-.sobre-nos .box.conteudo h1{
-width: 100%;
-background-color: burlywood;
-margin: 0;
-}*/
 
 .swiper {
     width: 100%;
@@ -185,12 +170,10 @@ margin: 0;
 
 .carousel{
     height: 100%;
-    /background-color: palegreen;
 }
 
 .carousel .carousel-inner{
     height: 100%;
-    /background-color: purple;
 }
 
 .carousel .carousel-inner .carousel-item{
@@ -219,7 +202,6 @@ margin: 0;
 
 .nossas-solucoes .swiper{
     height: 300px;
-    //background-color: yellow;
     margin-bottom: 30px;
 }
 
@@ -233,7 +215,6 @@ margin: 0;
 
 .sobre-nos .box.conteudo p{
     width: 100%;
-    //background-color: palevioletred;
     margin: 20px 0;
     font-family: montLight;
     font-size: 2em;
@@ -274,7 +255,6 @@ margin: 0;
 
 .sobre-nos .box.imagens{
     width: 60%;
-    //background-color: blanchedalmond;
     position: relative;
 }
 
@@ -299,7 +279,6 @@ margin: 0;
 .sobre-nos .box.imagens .bloco-imagem{
     position: relative;
     right: 90px;;
-    //background-color: red;
     width: 100%;
     height: 100%;
     clip-path: polygon(20% 15%, 100% 0%, 100% 100%, 20% 85%);
@@ -308,14 +287,6 @@ margin: 0;
     opacity: 0;
     position: absolute;
     transform: translateX(300px);
-    //transform: scale(0.1);
-}
-
-//.active{
-    opacity: 1 !important;
-    transition: 0.3s;
-    //transform: scale(1);
-    transform: translateX(0px) !important;
 }
 
 .sobre-nos .box.imagens .bloco-imagem img{
@@ -344,7 +315,6 @@ margin: 0;
 
 .titulo{
     padding: 20px 0;
-    //background-color: red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -357,7 +327,6 @@ margin: 0;
 }
 
 .titulo h1{
-    /background-color: yellow;
     height: 100%;
     margin: 0;
     font-family: oswaldBold;
@@ -370,7 +339,6 @@ margin: 0;
 .galeria .conteudo{
     margin: 15px auto;
     width: 70%;
-    //background-color: beige;
 }
 
 .galeria .conteudo .imagens{
@@ -382,7 +350,6 @@ margin: 0;
     width: 210px !important;
     margin: 30px 7px;
     height: 300px !important;
-    //background-color: blue !important;
     object-fit: contain;
     overflow: hidden;
     transition: 1s;
@@ -448,7 +415,6 @@ margin: 0;
     width: 90%;
     margin: 0 auto;
     justify-content: center;
-    //background-color: pink;
     margin-bottom: 30px;
 }
 
@@ -494,7 +460,6 @@ margin: 0;
 
 .acabamentos .conteudo .imagens div{  
     z-index: 1;
-    //background-color: green !important;
     height: 350px !important;
     position: relative;
     cursor: pointer;
@@ -522,7 +487,6 @@ margin: 0;
 .informacao{
     width: 80%;
     margin: 20px auto;
-    //background-color: pink;
     padding: 30px 50px;
 }
 
@@ -557,10 +521,6 @@ margin: 0;
     background-color: #EDEDEF;
     margin: 0 auto !important;
     padding: 50px 10% 40px 10%;
-}
-
-.contato .form{
-    /background-color: red;
 }
 
 .contato .form input,
@@ -661,7 +621,6 @@ footer img{
 
     header nav .nav-list{
         position: absolute;
-        //top: var(--offset-navbar-mobile);
         top: 100px;
         right: 0;
         width: 300px;
@@ -746,7 +705,6 @@ footer img{
 
     .sobre-nos .box.conteudo{
         width: 100%;
-        /background-color: aquamarine;
         display: flex;
         align-content: center;
         padding: 0 10px;
@@ -756,18 +714,6 @@ footer img{
         width: 80%;
         margin: 0 auto;
     }
-
-    /*.sobre-nos .box.conteudo h2{
-    width: 100%;
-    background-color: blueviolet;
-    margin: 0;
-}
-
-    .sobre-nos .box.conteudo h1{
-    width: 100%;
-    background-color: burlywood;
-    margin: 0;
-}*/
 
     .sobre-nos .box.conteudo p{
         font-size: 1.3em;
@@ -798,44 +744,23 @@ footer img{
         object-position: center;
     }
 
-    /*.sobre-nos .box.conteudo .imagens .image:last-child{
-    margin-right: 0;
-}
-    .sobre-nos .box.conteudo .imagens .image:first-child{
-    margin-left: 0;
-}*/
-
     .sobre-nos .box.imagens{
         width: 100%;
         height: 300px;
-        //background-color: blanchedalmond;
         position: relative;
         margin: 20px 0;
     }
 
     .sobre-nos .box.imagens .bloco-verde{
-        /*position: absolute;
-        right: 50px;
-        background-color: var(--secondary-color);
-        width: 100%;
-        height: 100%;
-        clip-path: polygon(20% 25%, 100% 5%, 100% 95%, 20% 75%);*/
         display: none;
     }
 
     .sobre-nos .box.imagens .bloco-azul{
-        /*position: absolute;
-        right: 70px;;
-        background-color: var(--primary-color);
-        width: 100%;
-        height: 100%;
-        clip-path: polygon(20% 20%, 100% 2.5%, 100% 97.5%, 20% 80%);*/
         display: none;
     }
 
     .sobre-nos .box.imagens .bloco-imagem{
         right: 0px !important;
-        //background-color: yellow;
         width: 90% !important;
         height: 100%;
         margin: 0 auto !important;
@@ -881,33 +806,6 @@ footer img{
     .galeria .conteudo .imagens div:nth-child(even){
         transform: translateY(0px);
     }
-
-    /*.galeria .conteudo{
-    width: 80%;
-}
-
-    .galeria .conteudo .imagens{
-    flex-wrap: wrap;
-}
-
-    .galeria .conteudo .imagens div{
-    width: 100% !important;
-    display: flex !important;
-    justify-content: center !important;
-}
-
-    .galeria .conteudo .imagens div:nth-child(even){
-    transform: translateY(0px);
-}
-
-    .galeria .conteudo .imagens div img{
-    max-width: 200px;
-    transform: scale(0.9)
-}
-
-    .galeria .conteudo .imagens div img:hover{
-    transform: scale(1);
-}*/
 
     .informacao{
         width: 80%;
@@ -998,34 +896,20 @@ footer img{
     .sobre-nos .box.imagens{
         width: 100%;
         height: 500px !important;
-        //background-color: blanchedalmond;
         position: relative;
         margin: 20px 0;
     }
 
     .sobre-nos .box.imagens .bloco-verde{
-        /*position: absolute;
-        right: 50px;
-        background-color: var(--secondary-color);
-        width: 100%;
-        height: 100%;
-        clip-path: polygon(20% 25%, 100% 5%, 100% 95%, 20% 75%);*/
         display: none;
     }
 
     .sobre-nos .box.imagens .bloco-azul{
-        /*position: absolute;
-        right: 70px;;
-        background-color: var(--primary-color);
-        width: 100%;
-        height: 100%;
-        clip-path: polygon(20% 20%, 100% 2.5%, 100% 97.5%, 20% 80%);*/
         display: none;
     }
 
     .sobre-nos .box.imagens .bloco-imagem{
         right: 0px;
-        //background-color: yellow;
         width: 100%;
         height: 100%;
         padding: 0%;
@@ -1041,7 +925,6 @@ footer img{
     }
 
     .sobre-nos .box.conteudo{
-        /background-color: aquamarine;
         padding: 0 20px;
     }
 
@@ -1084,7 +967,6 @@ footer img{
         margin: 15px auto;
         width: 70%;
         max-width: 600px;
-        //background-color: beige;
     }
 
     .galeria .conteudo .imagens{

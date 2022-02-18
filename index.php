@@ -22,13 +22,6 @@
     <title>Tecno Stone</title>
 
     <body>
-
-        <!--<?php
-//include 'php/navbar.html';
-//include 'php/form.html';
-//include 'php/maps.html';
-//include 'php/footer.html';
-?>-->
         <header>
             <nav>
                 <a class="logo" href="index.php">
@@ -49,8 +42,6 @@
 
         <section class="sobre-nos">
             <div class="box conteudo">
-                <!--<h2>Sobre</h2>
-<h1>Nós</h1>-->
                 <img src="Images/Index/Sobre-Nos/sobre-nos.webp">
                 <p>Atuamos com fornecimento de produtos em Mármores e Granitos com envio facilitado para todo Brasil.</p>
                 <div class="imagens">
@@ -98,21 +89,6 @@
             </div>
         </section>
 
-        <!--<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="1000" data-pause="false">
-<div class="carousel-inner">
-<div class="carousel-item active">
-<img class="d-block w-100" src="Images/Index/Sobre-Nos/banner1.webp" alt="First slide">
-</div>
-<div class="carousel-item">
-<img class="d-block w-100" src="Images/Index/Sobre-Nos/banner2.webp" alt="Second slide">
-</div>
-<div class="carousel-item">
-<img class="d-block w-100" src="Images/Index/Sobre-Nos/banner3.webp" alt="Third slide">
-</div>
-</div>
-</div>-->
-
-
         <section class="social-media">
             <div>
                 <img src="Images/Index/Social-Media/logo-instagram.webp">
@@ -128,20 +104,6 @@
                 <h1>Nossas soluções</h1>
             </div>
             <div class="conteudo">
-                <!--<div class="imagens">
-<div class="box">
-<img src="Images/Index/Nossas-Solucoes/imagem1.webp">
-</div>
-<div class="box">
-<img src="Images/Index/Nossas-Solucoes/imagem2.webp">
-</div>
-<div class="box">
-<img src="Images/Index/Nossas-Solucoes/imagem3.webp">
-</div>
-<div class="box">
-<img src="Images/Index/Nossas-Solucoes/imagem4.webp">
-</div>
-</div>-->
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -179,7 +141,6 @@
                     </div>
                     <div class="swiper-button-next"></div>
                     <div class="swiper-button-prev"></div>
-                    <!--<div class="swiper-pagination"></div>-->
                 </div>
                 <div class="texto">
                     <p>
@@ -207,9 +168,6 @@
                     <div id="Amarelo-Fiorito" product-name="Amarelo Fiorito">
                         <img src="Images/Index/Cores/Amarelo-Fiorito.webp">
                     </div>
-                    <!--<div id="Amarelo-Capri" product-name="Amarelo Capri">
-                        <img src="Images/Index/Cores/Amarelo-Capri.webp">
-                    </div>-->
                     <div id="Amarelo-Icarai" product-name="Amarelo Icarai">
                         <img src="Images/Index/Cores/Amarelo-Icarai.webp">
                     </div>
@@ -334,18 +292,6 @@
                         </div>
                         <p>polido</p>
                     </div>
-                    <!--<div>
-<img src="Images/Index/imagem1.webp">
-<p>flameado</p>
-</div>
-<div>
-<img src="Images/Index/imagem1.webp">
-<p>jateado</p>
-</div>
-<div>
-<img src="Images/Index/imagem1.webp">
-<p>polido</p>
-</div> -->
                 </div>
             </div>
         </section>
@@ -395,18 +341,12 @@
                         </a>
                         <a href="Images/Index/Obras-Realizadas/Galeria3/imagem2.webp" data-lightbox="galeria3" data-title="">
                         </a> 
-                        <!--<a href="Images/Index/Obras-Realizadas/Galeria3/imagem3.webp" data-lightbox="galeria3" data-title="">
-                        </a> -->
                         <a href="Images/Index/Obras-Realizadas/Galeria3/imagem4.webp" data-lightbox="galeria3" data-title="">
                         </a> 
                         <a href="Images/Index/Obras-Realizadas/Galeria3/imagem5.webp" data-lightbox="galeria3" data-title="">
                         </a> 
-                        <!--<a href="Images/Index/Obras-Realizadas/Galeria3/imagem6.webp" data-lightbox="galeria3" data-title="">
-                        </a> -->
                         <a href="Images/Index/Obras-Realizadas/Galeria3/imagem7.webp" data-lightbox="galeria3" data-title="">
                         </a>
-                        <!--<a href="Images/Index/Obras-Realizadas/Galeria3/imagem8.webp" data-lightbox="galeria3" data-title="">
-                        </a>-->
                         <a href="Images/Index/Obras-Realizadas/Galeria3/imagem9.webp" data-lightbox="galeria3" data-title="">
                         </a>
                         <a href="Images/Index/Obras-Realizadas/Galeria3/imagem10.webp" data-lightbox="galeria3" data-title="">
@@ -474,7 +414,6 @@
                 <h1>CONTATO</h1>
                 <div>
                     <p>
-                        <!--Lorem ipsum dolor sit amet,  consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut -->
                     </p>
                 </div>
                 <div class="info">
@@ -492,39 +431,6 @@
                     </section>
                 </div>
             </div>
-            <!--
-<section class="contato row d-flex justify-content-center" id="contato">    
-<div class="col-9">
-<h2 class="title">
-CONTATO
-</h2>
-<div class="form row">
-<div class="col-12 col-sm-6">
-<input class= "form-text form-nome" type="text" name="nome" id="nome" placeholder="NOME">
-</div>
-<div class="col-12 col-sm-6">
-<input class= "form-text form-email" type="text" name="email" id="email" placeholder="EMAIL">
-</div>
-<div class="col-12 col-sm-6">
-<input class= "form-text" type="text" name="telefone" id="telefone" placeholder="TELEFONE">
-</div>
-<div class="col-12 col-sm-6">
-<input class= "form-text" type="text" name="empresa" id="empresa" placeholder="EMPRESA">
-</div>
-<div class="col-12 col-sm-6">
-<input class= "form-text" type="text" name="cidade" id="cidade" placeholder="CIDADE">
-</div>
-<div class="col-12 col-sm-6">
-<input class= "form-text" type="text" name="estado" id="estado" placeholder="ESTADO">
-</div>
-<div class="col-12">
-<textarea class= "form-text" type="text" name="mensagem" id="mensagem" placeholder="MENSAGEM" rows="5"></textarea>
-</div>
-<div class="col-12 btn-form">
-<button class="buttonEmail" type="button">ENVIAR</button>
-</div>
-</div>
-</div>-->
         </section>
 
         <footer>
