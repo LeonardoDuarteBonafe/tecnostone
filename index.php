@@ -180,9 +180,12 @@
                     <div id="Amarelo-St-Cecilia" product-name="Amarelo St Cecilia">
                         <img src="Images/Index/Cores/Amarelo-St-Cecilia.webp">
                     </div>
-                    <div id="Bege-Antartic" product-name="Bege Antartic">
-                        <img src="Images/Index/Cores/Bege-Antartic.webp">
+                    <div id="Antartic-White" product-name="Antartic White">
+                        <img src="Images/Index/Cores/Antartic-White.webp">
                     </div>
+                    <!--<div id="Bege-Antartic" product-name="Bege Antartic">
+                        <img src="Images/Index/Cores/Bege-Antartic.webp">
+                    </div>-->
                     <div id="Bege-Bahia" product-name="Bege Bahia">
                         <img src="Images/Index/Cores/Bege-Bahia.webp">
                     </div>
